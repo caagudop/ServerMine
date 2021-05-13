@@ -1,0 +1,954 @@
+[03may2021 20:21:00.372] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 28.2.23, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, nogui]
+[03may2021 20:21:00.376] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_281 by Oracle Corporation
+[03may2021 20:21:03.892] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03may2021 20:21:05.309] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[03may2021 20:21:15.339] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03may2021 20:21:15.340] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03may2021 20:21:15.341] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03may2021 20:21:15.341] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03may2021 20:21:15.343] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03may2021 20:21:15.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
+[03may2021 20:21:15.686] [Server thread/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Loading Init Config
+[03may2021 20:21:15.686] [Server thread/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Initializing Init Config
+[03may2021 20:21:15.687] [Server thread/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Saving Init Config
+[03may2021 20:21:15.950] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity clumps:xp_orb_big
+[03may2021 20:21:16.101] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `edelwood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:16.102] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `edelwood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:16.103] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `cherrywood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:16.103] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `cherrywood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:16.104] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `mysterywood_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:16.104] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `forbidden_arcanus` for name `mysterywood_wall_sign`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:16.209] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\extradisks-server.toml is not correct. Correcting
+[03may2021 20:21:16.215] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.216] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.retro was corrected from null to false
+[03may2021 20:21:16.217] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.higher_disks was corrected from null to false
+[03may2021 20:21:16.221] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.23, for MC 1.14.4 with MCP 20190829.143755
+[03may2021 20:21:16.222] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.23 Initialized
+[03may2021 20:21:16.252] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:78]: Create Debugger
+[03may2021 20:21:16.255] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file C:\Magu\server1.14JEI\config\silentgear-client.toml
+[03may2021 20:21:16.257] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:81]: 1
+[03may2021 20:21:16.258] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:88]: 2
+[03may2021 20:21:16.260] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file C:\Magu\server1.14JEI\config\silentgear-common.toml
+[03may2021 20:21:16.259] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:90]: 3
+[03may2021 20:21:16.266] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:93]: 3.1
+[03may2021 20:21:16.267] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:97]: Register with Thread
+[03may2021 20:21:16.267] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:99]: Setup Debugger Complete
+[03may2021 20:21:16.268] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:log:108]: Mod ID: enviromats
+[03may2021 20:21:16.288] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\xnet-client.toml is not correct. Correcting
+[03may2021 20:21:16.288] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.289] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showNonFacadedCablesWhileSneaking was corrected from null to true
+[03may2021 20:21:16.292] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\xnet-common.toml is not correct. Correcting
+[03may2021 20:21:16.293] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.294] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.unsidedBlocks was corrected from null to [minecraft:chest, minecraft:trapped_chest, rftools:modular_storage, rftools:storage_scanner, rftools:pearl_injector]
+[03may2021 20:21:16.295] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerMaxRF was corrected from null to 100000
+[03may2021 20:21:16.295] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerRfPerTick was corrected from null to 1000
+[03may2021 20:21:16.296] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wirelessRouterMaxRF was corrected from null to 100000
+[03may2021 20:21:16.298] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wirelessRouterRfPerTick was corrected from null to 5000
+[03may2021 20:21:16.299] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wireless1RfPerChannel was corrected from null to 20
+[03may2021 20:21:16.301] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wireless2RfPerChannel was corrected from null to 50
+[03may2021 20:21:16.302] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wirelessInfRfPerChannel was corrected from null to 200
+[03may2021 20:21:16.303] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfConnector was corrected from null to 50000
+[03may2021 20:21:16.303] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfAdvancedConnector was corrected from null to 500000
+[03may2021 20:21:16.304] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfRateNormal was corrected from null to 10000
+[03may2021 20:21:16.304] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxRfRateAdvanced was corrected from null to 100000
+[03may2021 20:21:16.304] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxFluidRateNormal was corrected from null to 1000
+[03may2021 20:21:16.304] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxFluidRateAdvanced was corrected from null to 5000
+[03may2021 20:21:16.305] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxPublishedChannels was corrected from null to 32
+[03may2021 20:21:16.305] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerRFPerTick was corrected from null to 0
+[03may2021 20:21:16.306] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerChannelRFT was corrected from null to 1
+[03may2021 20:21:16.306] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.controllerOperationRFT was corrected from null to 2
+[03may2021 20:21:16.306] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.antennaTier1Range was corrected from null to 100
+[03may2021 20:21:16.306] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.antennaTier2Range was corrected from null to 500
+[03may2021 20:21:16.311] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Correcting config file C:\Magu\server1.14JEI\config\silentgear-client.toml
+[03may2021 20:21:16.312] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [gear, allowEnchantedEffect]: null -> false
+[03may2021 20:21:16.312] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [gear, useLiteModels]: null -> false
+[03may2021 20:21:16.313] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Saving config file C:\Magu\server1.14JEI\config\silentgear-client.toml
+[03may2021 20:21:16.342] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Correcting config file C:\Magu\server1.14JEI\config\silentgear-common.toml
+[03may2021 20:21:16.343] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [salvager, partLossRate, min]: null -> 0.0
+[03may2021 20:21:16.345] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [salvager, partLossRate, max]: null -> 0.5
+[03may2021 20:21:16.349] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, blueprint, typesAllowed]: null -> BOTH
+[03may2021 20:21:16.349] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, blueprint, spawnWithStarterBlueprints]: null -> true
+[03may2021 20:21:16.354] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, nerfedItems, harvestSpeedMultiplier]: null -> 0.5
+[03may2021 20:21:16.360] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, nerfedItems, durabilityMultiplier]: null -> 0.05
+[03may2021 20:21:16.365] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, nerfedItems, items]: null -> [diamond_axe, iron_axe, golden_axe, stone_axe, wooden_axe, diamond_hoe, iron_hoe, golden_hoe, stone_hoe, wooden_hoe, diamond_pickaxe, iron_pickaxe, golden_pickaxe, stone_pickaxe, wooden_pickaxe, diamond_shovel, iron_shovel, golden_shovel, stone_shovel, wooden_shovel, diamond_sword, iron_sword, golden_sword, stone_sword, wooden_sword]
+[03may2021 20:21:16.366] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, nerfedItems, enabled]: null -> false
+[03may2021 20:21:16.367] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, grading, random, sameOnAllParts]: null -> true
+[03may2021 20:21:16.368] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, grading, random, max]: null -> S
+[03may2021 20:21:16.370] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, grading, random, mean]: null -> C
+[03may2021 20:21:16.370] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, grading, random, standardDeviation]: null -> 1.5
+[03may2021 20:21:16.375] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, blockPlacers, placerTools]: null -> [silentgear:axe, silentgear:pickaxe, silentgear:shovel]
+[03may2021 20:21:16.376] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, blockPlacers, placeableItems]: null -> [danknull:dank_null, torchbandolier:torch_bandolier, xreliquary:sojourner_staff]
+[03may2021 20:21:16.376] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, sinew, dropsFrom]: null -> [minecraft:cow, minecraft:pig, minecraft:sheep]
+[03may2021 20:21:16.376] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, sinew, dropRate]: null -> 0.2
+[03may2021 20:21:16.376] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, breaksPermanently]: null -> false
+[03may2021 20:21:16.377] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, repairs, quickEffectiveness]: null -> 0.35
+[03may2021 20:21:16.377] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, repairs, anvilEffectiveness]: null -> 0.5
+[03may2021 20:21:16.377] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, aoeTools, matchMode, standard]: null -> MODERATE
+[03may2021 20:21:16.378] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, aoeTools, matchMode, ores]: null -> STRICT
+[03may2021 20:21:16.378] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers]: null -> SimpleCommentedConfig:{}
+[03may2021 20:21:16.378] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, repair_efficiency]: null -> 1.0
+[03may2021 20:21:16.379] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, reach_distance]: null -> 1.0
+[03may2021 20:21:16.379] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, magic_armor]: null -> 1.0
+[03may2021 20:21:16.379] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, durability]: null -> 1.0
+[03may2021 20:21:16.380] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, armor_durability]: null -> 1.0
+[03may2021 20:21:16.387] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, harvest_speed]: null -> 1.0
+[03may2021 20:21:16.390] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, attack_speed]: null -> 1.0
+[03may2021 20:21:16.390] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, ranged_damage]: null -> 1.0
+[03may2021 20:21:16.391] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, ranged_speed]: null -> 1.0
+[03may2021 20:21:16.391] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, armor_toughness]: null -> 1.0
+[03may2021 20:21:16.391] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, enchantability]: null -> 1.0
+[03may2021 20:21:16.392] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, armor]: null -> 1.0
+[03may2021 20:21:16.393] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, melee_damage]: null -> 1.0
+[03may2021 20:21:16.396] [modloading-worker-9/ERROR] [toastcontrol/]: Running on a dedicated server, disabling mod.
+[03may2021 20:21:16.401] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, harvest_level]: null -> 1.0
+[03may2021 20:21:16.422] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, magic_damage]: null -> 1.0
+[03may2021 20:21:16.422] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, statMultipliers, rarity]: null -> 1.0
+[03may2021 20:21:16.424] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [item, gear, upgrades, applyInAnvilOnly]: null -> false
+[03may2021 20:21:16.424] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [debug, logging, extraPartAndTraitInfo]: null -> false
+[03may2021 20:21:16.426] [modloading-worker-1/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [compat, mineAndSlash, enabled]: null -> true
+[03may2021 20:21:16.427] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Saving config file C:\Magu\server1.14JEI\config\silentgear-common.toml
+[03may2021 20:21:16.438] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\traverse-common.toml is not correct. Correcting
+[03may2021 20:21:16.438] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key arid_highlands_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.439] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key arid_highlands_biome.weight was corrected from null to 4
+[03may2021 20:21:16.441] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key autumnal_wooded_hills_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.441] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key autumnal_wooded_hills_biome.weight was corrected from null to 1
+[03may2021 20:21:16.443] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key autumnal_woods_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.443] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key autumnal_woods_biome.weight was corrected from null to 3
+[03may2021 20:21:16.444] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coniferous_forest_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.445] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coniferous_forest_biome.weight was corrected from null to 4
+[03may2021 20:21:16.454] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coniferous_woodland_hills_biome_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.456] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coniferous_woodland_hills_biome_biome.weight was corrected from null to 1
+[03may2021 20:21:16.459] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key desert_shrubland_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.460] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key desert_shrubland_biome.weight was corrected from null to 4
+[03may2021 20:21:16.462] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key high_coniferous_forest_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.465] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key high_coniferous_forest_biome.weight was corrected from null to 2
+[03may2021 20:21:16.470] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\cyclic.toml is not correct. Correcting
+[03may2021 20:21:16.476] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lush_swamp_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.477] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lush_swamp_biome.weight was corrected from null to 5
+[03may2021 20:21:16.475] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.478] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cyclic.itemTooltip was corrected from null to true
+[03may2021 20:21:16.480] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key meadow_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.481] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key meadow_biome.weight was corrected from null to 6
+[03may2021 20:21:16.483] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mini_jungle_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.485] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mini_jungle_biome.weight was corrected from null to 2
+[03may2021 20:21:16.487] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key plains_plateau_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.487] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key plains_plateau_biome.weight was corrected from null to 2
+[03may2021 20:21:16.488] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rock_edge_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.489] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rock_edge_biome.weight was corrected from null to 1
+[03may2021 20:21:16.490] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_hills_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.490] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_hills_biome.weight was corrected from null to 4
+[03may2021 20:21:16.491] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snowy_coniferous_forest_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.492] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snowy_coniferous_forest_biome.weight was corrected from null to 5
+[03may2021 20:21:16.493] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snowy_coniferous_wooded_hills_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.500] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsutility-client.toml is not correct. Correcting
+[03may2021 20:21:16.510] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snowy_coniferous_wooded_hills_biome.weight was corrected from null to 2
+[03may2021 20:21:16.510] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.531] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.useTruetype was corrected from null to false
+[03may2021 20:21:16.534] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.fontName was corrected from null to rftoolsutility:fonts/ubuntu.ttf
+[03may2021 20:21:16.534] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.fontSize was corrected from null to 40.0
+[03may2021 20:21:16.534] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.additionalCharacters was corrected from null to 
+[03may2021 20:21:16.536] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsutility-common.toml is not correct. Correcting
+[03may2021 20:21:16.537] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.537] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter.rfPerOperation was corrected from null to 100
+[03may2021 20:21:16.538] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter.speedOperations was corrected from null to 5
+[03may2021 20:21:16.538] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter.crafterMaxRF was corrected from null to 50000
+[03may2021 20:21:16.538] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snowy_high_coniferous_forest_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.541] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key snowy_high_coniferous_forest_biome.weight was corrected from null to 1
+[03may2021 20:21:16.542] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wooded_plateau_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.540] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key crafter.crafterRFPerTick was corrected from null to 500
+[03may2021 20:21:16.543] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wooded_plateau_biome.weight was corrected from null to 2
+[03may2021 20:21:16.545] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.547] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.transmitterMaxRF was corrected from null to 200000
+[03may2021 20:21:16.545] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key woodlands_biome was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.548] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.transmitterRFPerTick was corrected from null to 1000
+[03may2021 20:21:16.549] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key woodlands_biome.weight was corrected from null to 6
+[03may2021 20:21:16.549] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.receiverMaxRF was corrected from null to 100000
+[03may2021 20:21:16.550] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.receiverRFPerTick was corrected from null to 500
+[03may2021 20:21:16.550] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.dialerMaxRF was corrected from null to 50000
+[03may2021 20:21:16.550] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.dialerRFPerTick was corrected from null to 100
+[03may2021 20:21:16.550] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.advancedChargedPorterMaxRF was corrected from null to 1000000
+[03may2021 20:21:16.552] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.chargedPorterMaxRF was corrected from null to 200000
+[03may2021 20:21:16.553] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.chargedPorterRFPerTick was corrected from null to 2000
+[03may2021 20:21:16.554] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.advancedSpeedBonus was corrected from null to 4
+[03may2021 20:21:16.554] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.horizontalDialerRange was corrected from null to 10
+[03may2021 20:21:16.554] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.verticalDialerRange was corrected from null to 5
+[03may2021 20:21:16.554] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfPerDial was corrected from null to 1000
+[03may2021 20:21:16.556] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfPerCheck was corrected from null to 5000
+[03may2021 20:21:16.564] [modloading-worker-4/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity darkutils:wither_slime
+[03may2021 20:21:16.565] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfDialedConnectionPerTick was corrected from null to 10
+[03may2021 20:21:16.588] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfStartTeleportLocal was corrected from null to 5000
+[03may2021 20:21:16.588] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfStartTeleportDim was corrected from null to 100000
+[03may2021 20:21:16.610] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfStartTeleportDist was corrected from null to 10
+[03may2021 20:21:16.610] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfTeleportPerTick was corrected from null to 500
+[03may2021 20:21:16.628] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfMatterIdleTick was corrected from null to 0
+[03may2021 20:21:16.643] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsbase-common.toml is not correct. Correcting
+[03may2021 20:21:16.645] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfPerTeleportReceiver was corrected from null to 5000
+[03may2021 20:21:16.646] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.rfBoostedTeleport was corrected from null to 20000
+[03may2021 20:21:16.646] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.timeTeleportBaseLocal was corrected from null to 5
+[03may2021 20:21:16.646] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.timeTeleportBaseDim was corrected from null to 50
+[03may2021 20:21:16.647] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.timeTeleportDist was corrected from null to 10
+[03may2021 20:21:16.647] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.649] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.whooshMessage was corrected from null to true
+[03may2021 20:21:16.650] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.overworld was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.650] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.overworld.oreChances was corrected from null to 1
+[03may2021 20:21:16.651] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.overworld.oreVeinsize was corrected from null to 3
+[03may2021 20:21:16.651] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.overworld.oreMin was corrected from null to 2
+[03may2021 20:21:16.650] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.volumeTeleport was corrected from null to 1.0
+[03may2021 20:21:16.652] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.overworld.oreMax was corrected from null to 40
+[03may2021 20:21:16.653] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.nether was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.653] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.volumeTeleportError was corrected from null to 1.0
+[03may2021 20:21:16.653] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.nether.oreChances was corrected from null to 8
+[03may2021 20:21:16.653] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.nether.oreVeinsize was corrected from null to 8
+[03may2021 20:21:16.653] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.checkUnloadedChunk was corrected from null to -1
+[03may2021 20:21:16.657] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.checkUnloadedWorld was corrected from null to -1
+[03may2021 20:21:16.660] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.logTeleportUsages was corrected from null to false
+[03may2021 20:21:16.661] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.preventInterdimensionalTeleports was corrected from null to false
+[03may2021 20:21:16.661] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.blacklistedTeleportationSources was corrected from null to 
+[03may2021 20:21:16.661] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key teleporter.blacklistedTeleportationDestinations was corrected from null to 
+[03may2021 20:21:16.657] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.nether.oreMin was corrected from null to 2
+[03may2021 20:21:16.663] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tank was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.663] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tank.maxCapacity was corrected from null to 32000
+[03may2021 20:21:16.663] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.nether.oreMax was corrected from null to 40
+[03may2021 20:21:16.665] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.665] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.screenControllerMaxRF was corrected from null to 60000
+[03may2021 20:21:16.666] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.screenControllerRFPerTick was corrected from null to 1000
+[03may2021 20:21:16.668] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.buttonRFPerTick was corrected from null to 9
+[03may2021 20:21:16.669] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.dumpRFPerTick was corrected from null to 0
+[03may2021 20:21:16.669] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.elevatorButtonRFPerTick was corrected from null to 0
+[03may2021 20:21:16.670] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.clockRFPerTick was corrected from null to 1
+[03may2021 20:21:16.670] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.computerRFPerTick was corrected from null to 4
+[03may2021 20:21:16.670] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.counterPlusRFPerTick was corrected from null to 30
+[03may2021 20:21:16.670] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.counterRFPerTick was corrected from null to 4
+[03may2021 20:21:16.671] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.dimensionRFPerTick was corrected from null to 6
+[03may2021 20:21:16.671] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.energyRFPerTick was corrected from null to 4
+[03may2021 20:21:16.671] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.energyPlusRFPerTick was corrected from null to 30
+[03may2021 20:21:16.671] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.fluidRFPerTick was corrected from null to 4
+[03may2021 20:21:16.672] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.fluidPlusRFPerTick was corrected from null to 30
+[03may2021 20:21:16.672] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.itemstackPlusRFPerTick was corrected from null to 30
+[03may2021 20:21:16.672] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.itemstackRFPerTick was corrected from null to 4
+[03may2021 20:21:16.672] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.machineInfoRFPerTick was corrected from null to 4
+[03may2021 20:21:16.665] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.673] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.redstoneRFPerTick was corrected from null to 4
+[03may2021 20:21:16.674] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.maxInfuse was corrected from null to 256
+[03may2021 20:21:16.674] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.textRFPerTick was corrected from null to 0
+[03may2021 20:21:16.674] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.usePerTick was corrected from null to 600
+[03may2021 20:21:16.674] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.storageControlRFPerTick was corrected from null to 0
+[03may2021 20:21:16.675] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key screen.screenRefreshTiming was corrected from null to 500
+[03may2021 20:21:16.675] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.infuserMaxRF was corrected from null to 60000
+[03may2021 20:21:16.675] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infuser.infuserRFPerTick was corrected from null to 600
+[03may2021 20:21:16.703] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsstorage-client.toml is not correct. Correcting
+[03may2021 20:21:16.703] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.703] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.groupBackground was corrected from null to -1123021
+[03may2021 20:21:16.704] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.groupForeground was corrected from null to -16777216
+[03may2021 20:21:16.704] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.autofocusSearch was corrected from null to false
+[03may2021 20:21:16.704] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.clearSearchOnOpen was corrected from null to true
+[03may2021 20:21:16.706] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.712] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\theoneprobe-client.toml is not correct. Correcting
+[03may2021 20:21:16.725] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key timeout was corrected from null to 300
+[03may2021 20:21:16.724] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.hilightTime was corrected from null to 5
+[03may2021 20:21:16.726] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.hilightStarredOnGuiOpen was corrected from null to true
+[03may2021 20:21:16.728] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsstorage-common.toml is not correct. Correcting
+[03may2021 20:21:16.728] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.729] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.remoteStorageMaxRF was corrected from null to 100000
+[03may2021 20:21:16.729] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.remoteStorageRFPerTick was corrected from null to 300
+[03may2021 20:21:16.729] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.tabletMaxRF was corrected from null to 20000
+[03may2021 20:21:16.729] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.tabletRFPerTick was corrected from null to 500
+[03may2021 20:21:16.729] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.tabletRFUsage was corrected from null to 100
+[03may2021 20:21:16.730] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.tabletRFUsageScanner was corrected from null to 100
+[03may2021 20:21:16.730] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.tabletExtraRFUsage was corrected from null to 100
+[03may2021 20:21:16.730] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.remoteShareLocal was corrected from null to 10
+[03may2021 20:21:16.731] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.remoteShareGlobal was corrected from null to 50
+[03may2021 20:21:16.731] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.modularStorageGuiHeight1 was corrected from null to 236
+[03may2021 20:21:16.732] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.modularStorageGuiHeight2 was corrected from null to 320
+[03may2021 20:21:16.733] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.modularStorageGuiHeight3 was corrected from null to 490
+[03may2021 20:21:16.736] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storage.categories was corrected from null to [extrabiomes.blocks.BlockCustomFlower=Flowers, crazypants.enderio.material.ItemMachinePart=Technical, net.minecraft.block.BlockPistonBase=Technical, com.rwtema.extrautils.tileentity.transfernodes.BlockTransferPipe=Technical, net.minecraft.block.BlockWood=null, powercrystals.minefactoryreloaded.item.ItemPortaSpawner=Technical, thermalfoundation.block.BlockOre=Ores, mcjty.rftools.items.screenmodules=Modules, net.minecraft.block.BlockRail=Technical, net.minecraft.item.ItemShears=Tools, net.minecraft.block.BlockRailPowered=Technical, net.minecraft.block.BlockJukebox=Technical, mcjty.rftools.blocks.teleporter.MatterBoosterBlock=Machines, crazypants.enderio.material.ItemCapacitor=Technical, powercrystals.minefactoryreloaded.item.ItemLaserFocus=Technical, crazypants.enderio.fluid.ItemBucketEio=Buckets, biomesoplenty.common.items.ItemBOPBucket=Buckets, net.minecraft.block.BlockCommandBlock=Technical, mcjty.rftools.items.dimensionmonitor.DimensionMonitorItem=Technical, net.minecraft.block.BlockRedstoneLight=Technical, net.minecraft.item.ItemFood=Food, crazypants.enderio.conduit.facade.BlockConduitFacade=Technical, mcjty.rftools.blocks.spaceprojector.SpaceChamberBlock=Machines, powercrystals.minefactoryreloaded.item.base.ItemFactoryBucket=Buckets, crazypants.enderio.conduit.BlockConduitBundle=Technical, powercrystals.minefactoryreloaded.block=Machines, net.minecraft.block.BlockPotato=Food, crazypants.enderio.rail.BlockEnderRail=Technical, crazypants.enderio.machine=Machines, thermalexpansion.block.device.ItemBlockDevice=Machines, mcjty.rftools.items.teleportprobe.ChargedPorterItem=Technical, com.rwtema.extrautils.block.BlockEnderthermicPump=Machines, net.minecraft.block.BlockPressurePlate=Technical, net.minecraft.block.BlockFlower=Flowers, mcjty.rftools.items.dimlets.KnownDimlet=Dimlets, mcjty.rftools.items.teleportprobe.TeleportProbeItem=Technical, crazypants.enderio.item.ItemMagnet=Technical, mcjty.rftools.items.devdelight.DevelopersDelightItem=Technical, mcjty.rftools.items.parts.MediocreEfficiencyEssenceItem=Dimlet Parts, thermalexpansion.item.tool.ItemIgniter=Technical, mcjty.rftools.items.smartwrench.SmartWrenchItem=Technical, mcjty.rftools.items.parts.DimletTypeControllerItem=Dimlet Parts, crazypants.enderio.block.BlockDarkSteelPressurePlate=Technical, net.minecraft.block.BlockButtonStone=Technical, mcjty.rftools.items.parts.PeaceEssenceItem=Dimlet Parts, mcjty.rftools.items.envmodules=Modules, net.minecraft.block.BlockDropper=Technical, crazypants.enderio.conduit.redstone.ItemRedstoneConduit=Technical, mcjty.rftools.blocks.MachineBase=Machines, crazypants.enderio.conduit.item.filter.ItemBasicItemFilter=Technical, crazypants.enderio.item.ItemConduitProbe=Technical, thermalexpansion.item.tool.ItemMultimeter=Technical, net.minecraft.item.ItemFlintAndSteel=Tools, net.minecraft.block.BlockTripWireHook=Technical, net.minecraft.block.BlockDispenser=Technical, net.minecraft.block.BlockLever=Technical, mcjty.rftools.blocks.MachineFrame=Machines, crazypants.enderio.conduit.item.ItemItemConduit=Technical, mcjty.rftools.items.parts.DimletEnergyModuleItem=Dimlet Parts, thermalexpansion.block.machine=Machines, crazypants.enderio.conduit.item.filter.ItemExistingItemFilter=Technical, net.minecraft.item.ItemBow=Weapons, net.minecraft.block.BlockRedstoneWire=Technical, net.minecraft.block.BlockTripWire=Technical, mcjty.rftools.items.manual.RFToolsDimensionManualItem=Books, com.rwtema.extrautils.tileentity.enderquarry.BlockEnderQuarry=Machines, codechicken.microblock.ItemSaw=Tools, net.minecraft.block.BlockWorkbench=Technical, biomesoplenty.common.blocks.BlockBOPFlower=Flowers, biomesoplenty.common.itemblocks.ItemBlockFlower=Flowers, powercrystals.minefactoryreloaded.item.ItemLogicUpgradeCard=Technical, net.minecraft.block.BlockHopper=Technical, net.minecraft.item.ItemPotion=Potions, net.minecraft.item.ItemBook=Books, net.minecraft.item.ItemBucket=Buckets, mcjty.rftools.items.parts.DimletMemoryUnitItem=Dimlet Parts, powercrystals.minefactoryreloaded.item.tool.ItemRedNetMeter=Technical, mcjty.rftools.blocks.shield.ShieldTemplateBlock=Machines, net.minecraft.block.BlockRedstoneTorch=Technical, mcjty.lib.container.GenericBlock=Machines, com.rwtema.extrautils.tileentity.enderquarry.BlockEnderMarkers=Technical, net.minecraft.item.ItemRecord=Records, crazypants.enderio.conduit.gas.ItemGasConduit=Technical, mcjty.rftools.blocks.spaceprojector.SpaceChamberCardItem=Technical, crazypants.enderio.conduit.liquid.ItemLiquidConduit=Technical, powercrystals.minefactoryreloaded.item.tool.ItemXpExtractor=Technical, net.minecraft.item.ItemArmor=Armor, net.minecraft.block.BlockOre=Ores, buildcraft.builders=Machines, mcjty.rftools.blocks.teleporter.DestinationAnalyzerBlock=Machines, com.rwtema.extrautils.tileentity.generators.BlockGenerator=Machines, crazypants.enderio.conduit.item.ItemExtractSpeedUpgrade=Technical, mcjty.rftools.items.parts.SyringeItem=Dimlet Parts, net.minecraft.block.BlockRedstoneComparator=Technical, mcjty.rftools.items.parts.EfficiencyEssenceItem=Dimlet Parts, thermalexpansion.block.cell=Machines, net.minecraft.item.ItemRedstone=Technical, net.minecraft.block.BlockNote=Technical, mcjty.rftools.items.manual.RFToolsManualItem=Books, crazypants.enderio.conduit.power.ItemPowerConduit=Technical, mcjty.rftools.items.storage=Modules, mcjty.rftools.items.dimlets.RealizedDimensionTab=Dimlets, crazypants.enderio.machine.spawner.ItemBrokenSpawner=Machines, cofh.core.item.ItemBucket=Buckets, net.minecraft.item.ItemMinecart=Technical, net.minecraft.item.ItemSkull=Skulls, mcjty.rftools.items.dimlets.EmptyDimensionTab=Dimlets, mcjty.rftools.items.dimlets.UnknownDimlet=Dimlets, crazypants.enderio.item.skull=Skulls, net.minecraft.block.BlockFurnace=Technical, net.minecraft.block.BlockPressurePlateWeighted=Technical, powercrystals.minefactoryreloaded.item.ItemSafariNet=Technical, net.minecraft.block.BlockRailDetector=Technical, net.minecraft.block.BlockRedstoneRepeater=Technical, mcjty.rftools.items.dimlets.DimletTemplate=Dimlets, mcjty.rftools.items.dimensionmonitor.PhasedFieldGeneratorItem=Technical, net.minecraft.block.BlockSapling=Saplings, net.minecraft.block.BlockDaylightDetector=Technical, cofh.thermalexpansion.block.device=Machines, codechicken.microblock.ItemMicroPart=Microblocks, crazypants.enderio.conduit.item.filter.ItemModItemFilter=Technical, mcjty.rftools.items.manual.RFToolsShapeManualItem=Books, net.minecraft.item.ItemSword=Weapons, powercrystals.minefactoryreloaded.item.gun.ItemSafariNetLauncher=Technical, net.minecraft.item.ItemTool=Tools, thermalexpansion.item.tool.ItemWrench=Technical, net.minecraft.block.BlockCake=Food, mcjty.rftools.items.parts.DimletControlCircuitItem=Dimlet Parts, net.minecraft.block.BlockCarrot=Food, biomesoplenty.common.itemblocks.ItemBlockFlower2=Flowers, thermalexpansion.block.dynamo.ItemBlockDynamo=Machines, thermalexpansion.item.ItemCapacitor=Technical, biomesoplenty.common.blocks.BlockBOPFlower2=Flowers, codechicken.chunkloader.ItemChunkLoader=Machines, powercrystals.minefactoryreloaded.item.tool.ItemRedNetMemoryCard=Technical, net.minecraft.block.BlockTNT=Technical, net.minecraft.item.ItemHoe=Tools, mcjty.rftools.items.netmonitor.NetworkMonitorItem=Technical, com.rwtema.extrautils.tileentity.enderquarry.BlockQuarryUpgrades=Technical]
+[03may2021 20:21:16.732] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity charged_snowball
+[03may2021 20:21:16.741] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.742] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.rfPerRequest was corrected from null to 100
+[03may2021 20:21:16.742] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.rfPerInsert was corrected from null to 20
+[03may2021 20:21:16.744] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.scannerMaxRF was corrected from null to 50000
+[03may2021 20:21:16.733] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key waitingForServerTimeout was corrected from null to 2000
+[03may2021 20:21:16.746] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.scannerRFPerTick was corrected from null to 500
+[03may2021 20:21:16.748] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.requestStraightToInventory was corrected from null to true
+[03may2021 20:21:16.748] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagescanner.xnetRequired was corrected from null to false
+[03may2021 20:21:16.748] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxPacketToServer was corrected from null to 20000
+[03may2021 20:21:16.754] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key probeDistance was corrected from null to 6.0
+[03may2021 20:21:16.773] [modloading-worker-13/INFO] [druidcraft/]: Loading Config: C:\Magu\server1.14JEI\config\druidcraft-server.toml
+[03may2021 20:21:16.774] [modloading-worker-13/INFO] [druidcraft/]: Built Config: C:\Magu\server1.14JEI\config\druidcraft-server.toml
+[03may2021 20:21:16.775] [modloading-worker-13/INFO] [druidcraft/]: Loaded Config: C:\Magu\server1.14JEI\config\druidcraft-server.toml
+[03may2021 20:21:16.775] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\druidcraft-server.toml is not correct. Correcting
+[03may2021 20:21:16.775] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showModName was corrected from null to NORMAL
+[03may2021 20:21:16.777] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showHarvestLevel was corrected from null to NORMAL
+[03may2021 20:21:16.779] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showCanBeHarvested was corrected from null to NORMAL
+[03may2021 20:21:16.776] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.780] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.amber_size was corrected from null to 4
+[03may2021 20:21:16.780] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.amber_weight was corrected from null to 2
+[03may2021 20:21:16.780] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.moonstone_size was corrected from null to 4
+[03may2021 20:21:16.781] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.moonstone_weight was corrected from null to 3
+[03may2021 20:21:16.780] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showCropPercentage was corrected from null to NORMAL
+[03may2021 20:21:16.779] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\mcjtylib-client.toml is not correct. Correcting
+[03may2021 20:21:16.781] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.fiery_glass_size was corrected from null to 7
+[03may2021 20:21:16.782] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.783] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showChestContents was corrected from null to EXTENDED
+[03may2021 20:21:16.783] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.fiery_glass_weight was corrected from null to 5
+[03may2021 20:21:16.786] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.rockroot_size was corrected from null to 3
+[03may2021 20:21:16.786] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.rockroot_weight was corrected from null to 16
+[03may2021 20:21:16.786] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregeneration.generate_ores was corrected from null to true
+[03may2021 20:21:16.786] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderTopLeft was corrected from null to 2b2b2b
+[03may2021 20:21:16.786] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showChestContentsDetailed was corrected from null to EXTENDED
+[03may2021 20:21:16.787] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key droprate was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.788] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key droprate.hemp_seed_rate was corrected from null to 8
+[03may2021 20:21:16.788] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key droprate.drop_seeds was corrected from null to true
+[03may2021 20:21:16.787] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderBottomRight was corrected from null to ffffff
+[03may2021 20:21:16.789] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key toolcontrollers was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.788] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showRedstone was corrected from null to NORMAL
+[03may2021 20:21:16.789] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key toolcontrollers.sickle_block_list was corrected from null to []
+[03may2021 20:21:16.789] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderFiller was corrected from null to 636363
+[03may2021 20:21:16.790] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.790] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showMobHealth was corrected from null to NORMAL
+[03may2021 20:21:16.790] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.dreadfish_spawn was corrected from null to true
+[03may2021 20:21:16.790] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.dreadfish_weight was corrected from null to 35
+[03may2021 20:21:16.791] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.dreadfish_min_group_size was corrected from null to 1
+[03may2021 20:21:16.791] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.dreadfish_max_group_size was corrected from null to 3
+[03may2021 20:21:16.791] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.dreadfish_biomes was corrected from null to SNOWY|COLD
+[03may2021 20:21:16.791] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.beetle_spawn was corrected from null to true
+[03may2021 20:21:16.792] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.beetle_weight was corrected from null to 10
+[03may2021 20:21:16.792] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.beetle_min_group_size was corrected from null to 1
+[03may2021 20:21:16.792] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.beetle_max_group_size was corrected from null to 2
+[03may2021 20:21:16.793] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key entityspawning.beetle_biomes was corrected from null to CONIFEROUS|FOREST|JUNGLE|DENSE
+[03may2021 20:21:16.790] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobTopLeft was corrected from null to eeeeee
+[03may2021 20:21:16.791] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showMobGrowth was corrected from null to NORMAL
+[03may2021 20:21:16.793] [modloading-worker-13/INFO] [druidcraft/]: Loading Config: C:\Magu\server1.14JEI\config\druidcraft-client.toml
+[03may2021 20:21:16.794] [modloading-worker-13/INFO] [druidcraft/]: Built Config: C:\Magu\server1.14JEI\config\druidcraft-client.toml
+[03may2021 20:21:16.795] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobBottomRight was corrected from null to 333333
+[03may2021 20:21:16.794] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showMobPotionEffects was corrected from null to EXTENDED
+[03may2021 20:21:16.799] [modloading-worker-13/INFO] [druidcraft/]: Loaded Config: C:\Magu\server1.14JEI\config\druidcraft-client.toml
+[03may2021 20:21:16.799] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobFiller was corrected from null to 8b8b8b
+[03may2021 20:21:16.800] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobDraggingTopLeft was corrected from null to 5c669d
+[03may2021 20:21:16.800] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showLeverSetting was corrected from null to NORMAL
+[03may2021 20:21:16.800] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobDraggingBottomRight was corrected from null to bcc5ff
+[03may2021 20:21:16.801] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobDraggingFiller was corrected from null to 7f89bf
+[03may2021 20:21:16.801] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showTankSetting was corrected from null to EXTENDED
+[03may2021 20:21:16.801] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobHoveringTopLeft was corrected from null to a5aac5
+[03may2021 20:21:16.802] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobHoveringBottomRight was corrected from null to 777c99
+[03may2021 20:21:16.802] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobHoveringFiller was corrected from null to 858aa5
+[03may2021 20:21:16.802] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showBrewStandSetting was corrected from null to NORMAL
+[03may2021 20:21:16.802] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorSliderKnobMarkerLine was corrected from null to 4e4e4e
+[03may2021 20:21:16.803] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextNormal was corrected from null to 303030
+[03may2021 20:21:16.803] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextInListNormal was corrected from null to 151515
+[03may2021 20:21:16.803] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextDisabled was corrected from null to a0a0a0
+[03may2021 20:21:16.803] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showMobSpawnerSetting was corrected from null to NORMAL
+[03may2021 20:21:16.803] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextFieldTopLeft was corrected from null to 2b2b2b
+[03may2021 20:21:16.804] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextFieldBottomRight was corrected from null to ffffff
+[03may2021 20:21:16.804] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showAnimalOwnerSetting was corrected from null to EXTENDED
+[03may2021 20:21:16.807] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextFieldFiller was corrected from null to c6c6c6
+[03may2021 20:21:16.807] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextFieldFocusedFiller was corrected from null to eeeeee
+[03may2021 20:21:16.808] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextFieldHoveringFiller was corrected from null to dadada
+[03may2021 20:21:16.809] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorTextFieldCursor was corrected from null to 0
+[03may2021 20:21:16.809] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorEnergyBarTopLeft was corrected from null to 2b2b2b
+[03may2021 20:21:16.810] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorEnergyBarBottomRight was corrected from null to ffffff
+[03may2021 20:21:16.811] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorEnergyBarHighEnergy was corrected from null to dd0000
+[03may2021 20:21:16.811] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorEnergyBarLowEnergy was corrected from null to 631111
+[03may2021 20:21:16.812] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorEnergyBarSpacer was corrected from null to 430000
+[03may2021 20:21:16.812] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorEnergyBarText was corrected from null to ffffff
+[03may2021 20:21:16.812] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListBackground was corrected from null to 8b8b8b
+[03may2021 20:21:16.812] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListSeparatorLine was corrected from null to 5c5c5c
+[03may2021 20:21:16.813] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListSelectedHighlightedGradient1 was corrected from null to bbbb00
+[03may2021 20:21:16.813] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListSelectedHighlightedGradient2 was corrected from null to 999900
+[03may2021 20:21:16.813] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListSelectedGradient1 was corrected from null to 616161
+[03may2021 20:21:16.814] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListSelectedGradient2 was corrected from null to 414141
+[03may2021 20:21:16.814] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListHighlightedGradient1 was corrected from null to 717120
+[03may2021 20:21:16.814] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorListHighlightedGradient2 was corrected from null to 515110
+[03may2021 20:21:16.814] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorBackgroundBevelBright was corrected from null to ffffff
+[03may2021 20:21:16.815] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorBackgroundBevelDark was corrected from null to 2b2b2b
+[03may2021 20:21:16.815] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorBackgroundFiller was corrected from null to c6c6c6
+[03may2021 20:21:16.815] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleNormalBorderTopLeft was corrected from null to eeeeee
+[03may2021 20:21:16.816] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleNormalBorderBottomRight was corrected from null to 777777
+[03may2021 20:21:16.818] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleNormalFiller was corrected from null to c6c6c6
+[03may2021 20:21:16.819] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleDisabledBorderTopLeft was corrected from null to eeeeee
+[03may2021 20:21:16.819] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleDisabledBorderBottomRight was corrected from null to 777777
+[03may2021 20:21:16.819] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleDisabledFiller was corrected from null to c6c6c6
+[03may2021 20:21:16.820] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleTextNormal was corrected from null to 303030
+[03may2021 20:21:16.820] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorToggleTextDisabled was corrected from null to a0a0a0
+[03may2021 20:21:16.820] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorCycleButtonTriangleNormal was corrected from null to 0
+[03may2021 20:21:16.821] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorCycleButtonTriangleDisabled was corrected from null to 888888
+[03may2021 20:21:16.821] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonExternalBorder was corrected from null to 0
+[03may2021 20:21:16.821] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonBorderTopLeft was corrected from null to eeeeee
+[03may2021 20:21:16.821] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonBorderBottomRight was corrected from null to 777777
+[03may2021 20:21:16.822] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonFiller was corrected from null to c6c6c6
+[03may2021 20:21:16.822] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonFillerGradient1 was corrected from null to b1b1b1
+[03may2021 20:21:16.822] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonFillerGradient2 was corrected from null to e1e1e1
+[03may2021 20:21:16.822] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonDisabledBorderTopLeft was corrected from null to eeeeee
+[03may2021 20:21:16.823] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonDisabledBorderBottomRight was corrected from null to 777777
+[03may2021 20:21:16.823] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonDisabledFiller was corrected from null to c6c6c6
+[03may2021 20:21:16.823] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonDisabledFillerGradient1 was corrected from null to b1b1b1
+[03may2021 20:21:16.824] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonDisabledFillerGradient2 was corrected from null to e1e1e1
+[03may2021 20:21:16.824] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonSelectedBorderTopLeft was corrected from null to 5c669d
+[03may2021 20:21:16.824] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonSelectedBorderBottomRight was corrected from null to bcc5ff
+[03may2021 20:21:16.825] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonSelectedFiller was corrected from null to 7f89bf
+[03may2021 20:21:16.825] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonSelectedFillerGradient1 was corrected from null to 6a74aa
+[03may2021 20:21:16.825] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonSelectedFillerGradient2 was corrected from null to 949ed4
+[03may2021 20:21:16.825] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonHoveringBorderTopLeft was corrected from null to a5aac5
+[03may2021 20:21:16.826] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonHoveringBorderBottomRight was corrected from null to 999ebb
+[03may2021 20:21:16.826] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonHoveringFiller was corrected from null to a2a7c2
+[03may2021 20:21:16.826] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonHoveringFillerGradient1 was corrected from null to 8d92ad
+[03may2021 20:21:16.827] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.colorButtonHoveringFillerGradient2 was corrected from null to babfda
+[03may2021 20:21:16.812] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showHorseStatSetting was corrected from null to EXTENDED
+[03may2021 20:21:16.832] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\mcjtylib-common.toml is not correct. Correcting
+[03may2021 20:21:16.834] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.835] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logging was corrected from null to false
+[03may2021 20:21:16.835] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.manageOwnership was corrected from null to true
+[03may2021 20:21:16.835] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tallChunkFriendly was corrected from null to false
+[03may2021 20:21:16.836] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showSilverfish was corrected from null to NOT
+[03may2021 20:21:16.836] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxInfuse was corrected from null to 256
+[03may2021 20:21:16.838] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxLeftX was corrected from null to 5
+[03may2021 20:21:16.839] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxRightX was corrected from null to -1
+[03may2021 20:21:16.845] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxTopY was corrected from null to 5
+[03may2021 20:21:16.846] [modloading-worker-9/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 1.6.1...
+[03may2021 20:21:16.857] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxBottomY was corrected from null to -1
+[03may2021 20:21:16.859] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxBorderColor was corrected from null to ff999999
+[03may2021 20:21:16.861] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxFillColor was corrected from null to 55006699
+[03may2021 20:21:16.861] [modloading-worker-8/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file C:\Magu\server1.14JEI\config\silents-mechanisms-common.toml
+[03may2021 20:21:16.862] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxThickness was corrected from null to 2
+[03may2021 20:21:16.870] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boxOffset was corrected from null to 0
+[03may2021 20:21:16.871] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showLiquids was corrected from null to false
+[03may2021 20:21:16.872] [modloading-worker-1/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[03may2021 20:21:16.874] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key isVisible was corrected from null to true
+[03may2021 20:21:16.875] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Correcting config file C:\Magu\server1.14JEI\config\silents-mechanisms-common.toml
+[03may2021 20:21:16.878] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [general, showBetaWelcomeMessage]: null -> true
+[03may2021 20:21:16.878] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, URANIUM, minHeight]: null -> 0
+[03may2021 20:21:16.878] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key holdKeyToMakeVisible was corrected from null to false
+[03may2021 20:21:16.879] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, URANIUM, veinCount]: null -> 1
+[03may2021 20:21:16.880] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, URANIUM, maxHeight]: null -> 18
+[03may2021 20:21:16.881] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, URANIUM, veinSize]: null -> 4
+[03may2021 20:21:16.881] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tooltipScale was corrected from null to 1.0
+[03may2021 20:21:16.881] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, NICKEL, minHeight]: null -> 0
+[03may2021 20:21:16.882] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, NICKEL, veinCount]: null -> 1
+[03may2021 20:21:16.882] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, NICKEL, maxHeight]: null -> 24
+[03may2021 20:21:16.882] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key chestContentsBorderColor was corrected from null to ff006699
+[03may2021 20:21:16.883] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, NICKEL, veinSize]: null -> 6
+[03may2021 20:21:16.883] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BAUXITE, minHeight]: null -> 15
+[03may2021 20:21:16.883] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BAUXITE, veinCount]: null -> 6
+[03may2021 20:21:16.883] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BAUXITE, maxHeight]: null -> 50
+[03may2021 20:21:16.883] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showBreakProgress was corrected from null to 1
+[03may2021 20:21:16.873] [modloading-worker-1/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: llor, class com.mmyzd.llor.LightLevelOverlayReloaded
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClass(RuntimeDistCleaner.java:71) ~[forge-1.14.4-28.2.23.jar:28.2]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClass(ILaunchPluginService.java:102) ~[modlauncher-4.1.0.jar:4.1.0+62+5bfa59b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:80) ~[modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:115) ~[modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:241) ~[modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:128) ~[modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-4.1.0.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_281]
+	at com.mmyzd.llor.displaymode.DisplayModeManager$EventHandler.<init>(DisplayModeManager.java:183) ~[?:1.2.4-mc1.14.4]
+	at com.mmyzd.llor.displaymode.DisplayModeManager$EventHandler.<init>(DisplayModeManager.java:178) ~[?:1.2.4-mc1.14.4]
+	at com.mmyzd.llor.displaymode.DisplayModeManager.<init>(DisplayModeManager.java:52) ~[?:1.2.4-mc1.14.4]
+	at com.mmyzd.llor.config.ConfigManager.<init>(ConfigManager.java:54) ~[?:1.2.4-mc1.14.4]
+	at com.mmyzd.llor.LightLevelOverlayReloaded.<init>(LightLevelOverlayReloaded.java:22) ~[?:1.2.4-mc1.14.4]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_281]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_281]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:131) ~[?:28.2]
+	at java.util.function.Consumer.lambda$andThen$0(Unknown Source) ~[?:1.8.0_281]
+	at java.util.function.Consumer.lambda$andThen$0(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraftforge.fml.ModContainer.transitionState(ModContainer.java:112) ~[?:?]
+	at net.minecraftforge.fml.ModList.lambda$null$10(ModList.java:134) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) [?:1.8.0_281]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) [?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) [?:1.8.0_281]
+	at java.util.stream.ForEachOps$ForEachTask.compute(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.CountedCompleter.exec(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.execLocalTasks(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_281]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_281]
+[03may2021 20:21:16.884] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BAUXITE, veinSize]: null -> 8
+[03may2021 20:21:16.907] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key harvestStyleVanilla was corrected from null to true
+[03may2021 20:21:16.907] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, SILVER, minHeight]: null -> 0
+[03may2021 20:21:16.907] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, SILVER, veinCount]: null -> 4
+[03may2021 20:21:16.907] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, SILVER, maxHeight]: null -> 40
+[03may2021 20:21:16.907] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, SILVER, veinSize]: null -> 8
+[03may2021 20:21:16.907] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.908] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Obsolete was corrected from null to gray,strikethrough
+[03may2021 20:21:16.908] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Warning was corrected from null to yellow
+[03may2021 20:21:16.908] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Info was corrected from null to white
+[03may2021 20:21:16.909] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Name was corrected from null to white
+[03may2021 20:21:16.909] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.ModName was corrected from null to blue,italic
+[03may2021 20:21:16.909] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Label was corrected from null to gray
+[03may2021 20:21:16.909] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Ok was corrected from null to green
+[03may2021 20:21:16.910] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.InfoImportant was corrected from null to blue
+[03may2021 20:21:16.910] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Error was corrected from null to red,bold
+[03may2021 20:21:16.910] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key style.Progress was corrected from null to white
+[03may2021 20:21:16.907] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:78]: Create Debugger
+[03may2021 20:21:16.912] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\theoneprobe-common.toml is not correct. Correcting
+[03may2021 20:21:16.908] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, TIN, minHeight]: null -> 20
+[03may2021 20:21:16.918] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, TIN, veinCount]: null -> 8
+[03may2021 20:21:16.918] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:81]: 1
+[03may2021 20:21:16.919] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loggingThrowableTimeout was corrected from null to 20000
+[03may2021 20:21:16.919] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, TIN, maxHeight]: null -> 80
+[03may2021 20:21:16.919] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, TIN, veinSize]: null -> 8
+[03may2021 20:21:16.919] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, PLATINUM, minHeight]: null -> 5
+[03may2021 20:21:16.919] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, PLATINUM, veinCount]: null -> 1
+[03may2021 20:21:16.920] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:88]: 2
+[03may2021 20:21:16.920] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key needsProbe was corrected from null to 3
+[03may2021 20:21:16.920] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, PLATINUM, maxHeight]: null -> 20
+[03may2021 20:21:16.922] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, PLATINUM, veinSize]: null -> 8
+[03may2021 20:21:16.923] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, COPPER, minHeight]: null -> 40
+[03may2021 20:21:16.923] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, COPPER, veinCount]: null -> 8
+[03may2021 20:21:16.923] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key extendedInMain was corrected from null to false
+[03may2021 20:21:16.924] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, COPPER, maxHeight]: null -> 90
+[03may2021 20:21:16.924] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:90]: 3
+[03may2021 20:21:16.924] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key supportBaubles was corrected from null to true
+[03may2021 20:21:16.924] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, COPPER, veinSize]: null -> 8
+[03may2021 20:21:16.925] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawnNote was corrected from null to true
+[03may2021 20:21:16.925] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:93]: 3.1
+[03may2021 20:21:16.929] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showCollarColor was corrected from null to true
+[03may2021 20:21:16.928] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BISMUTH, minHeight]: null -> 16
+[03may2021 20:21:16.934] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BISMUTH, veinCount]: null -> 4
+[03may2021 20:21:16.934] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BISMUTH, maxHeight]: null -> 64
+[03may2021 20:21:16.934] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showRF was corrected from null to 1
+[03may2021 20:21:16.936] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showTank was corrected from null to 1
+[03may2021 20:21:16.936] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rfFormat was corrected from null to COMPACT
+[03may2021 20:21:16.937] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tankFormat was corrected from null to COMPACT
+[03may2021 20:21:16.933] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:97]: Register with Thread
+[03may2021 20:21:16.935] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, BISMUTH, veinSize]: null -> 8
+[03may2021 20:21:16.942] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, ZINC, minHeight]: null -> 20
+[03may2021 20:21:16.943] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, ZINC, veinCount]: null -> 4
+[03may2021 20:21:16.943] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, ZINC, maxHeight]: null -> 60
+[03may2021 20:21:16.948] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, ZINC, veinSize]: null -> 8
+[03may2021 20:21:16.948] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, LEAD, minHeight]: null -> 0
+[03may2021 20:21:16.949] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, LEAD, veinCount]: null -> 4
+[03may2021 20:21:16.949] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, LEAD, maxHeight]: null -> 30
+[03may2021 20:21:16.949] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, gen, LEAD, veinSize]: null -> 8
+[03may2021 20:21:16.949] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, oilLake, chance]: null -> 6
+[03may2021 20:21:16.950] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [world, masterSwitch]: null -> true
+[03may2021 20:21:16.950] [modloading-worker-8/WARN] [net.silentchaos512.utils.config.ConfigSpecWrapper/]:   [machine, fluidGenerators, injectionVolume]: null -> 100
+[03may2021 20:21:16.950] [modloading-worker-8/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Saving config file C:\Magu\server1.14JEI\config\silents-mechanisms-common.toml
+[03may2021 20:21:16.942] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\bonsaitrees2-client.toml is not correct. Correcting
+[03may2021 20:21:16.940] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:<init>:99]: Setup Debugger Complete
+[03may2021 20:21:16.951] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:log:108]: Mod ID: valkyrielib
+[03may2021 20:21:16.939] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDebugInfo was corrected from null to true
+[03may2021 20:21:16.953] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.954] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showChanceInJEI was corrected from null to true
+[03may2021 20:21:16.954] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compactEqualStacks was corrected from null to true
+[03may2021 20:21:16.959] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rfbarFilledColor was corrected from null to ffdd0000
+[03may2021 20:21:16.961] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rfbarAlternateFilledColor was corrected from null to ff430000
+[03may2021 20:21:16.960] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\bonsaitrees2-common.toml is not correct. Correcting
+[03may2021 20:21:16.963] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.965] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.noDyeCost was corrected from null to false
+[03may2021 20:21:16.966] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.waterloggedEffect was corrected from null to DROP_LOOT
+[03may2021 20:21:16.966] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.additionalCuttingTools was corrected from null to [minecraft:shears]
+[03may2021 20:21:16.962] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rfbarBorderColor was corrected from null to ff555555
+[03may2021 20:21:16.971] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tankbarFilledColor was corrected from null to ff0000dd
+[03may2021 20:21:16.972] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tankbarAlternateFilledColor was corrected from null to ff000043
+[03may2021 20:21:16.973] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tankbarBorderColor was corrected from null to ff555555
+[03may2021 20:21:16.974] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showItemDetailThresshold was corrected from null to 4
+[03may2021 20:21:16.976] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showSmallChestContentsWithoutSneaking was corrected from null to 0
+[03may2021 20:21:16.978] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showContentsWithoutSneaking was corrected from null to [storagedrawers:basicdrawers, storagedrawersextra:extra_drawers]
+[03may2021 20:21:16.983] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dontShowContentsUnlessSneaking was corrected from null to []
+[03may2021 20:21:16.985] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\gardentools.toml is not correct. Correcting
+[03may2021 20:21:16.988] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.988] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.cultivator was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.989] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dontSendNBT was corrected from null to []
+[03may2021 20:21:16.989] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.cultivator.range was corrected from null to 9
+[03may2021 20:21:16.989] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.cultivator.moisture was corrected from null to 7
+[03may2021 20:21:16.990] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.planter was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.990] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.planter.range was corrected from null to 9
+[03may2021 20:21:16.990] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.irrigator was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:16.991] [modloading-worker-9/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key gardentools.irrigator.radius was corrected from null to 4
+[03may2021 20:21:16.997] [modloading-worker-12/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[03may2021 20:21:17.003] [modloading-worker-1/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:log:108]: Setup Complete
+[03may2021 20:21:17.007] [modloading-worker-1/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Loading Config
+[03may2021 20:21:17.010] [modloading-worker-1/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Initializing Init Config
+[03may2021 20:21:17.010] [modloading-worker-1/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Saving Config
+[03may2021 20:21:17.011] [modloading-worker-15/INFO] [STDOUT/]: [com.valkyrieofnight.vlib.core.debug.SimpleDebugger:log:108]: Setup Complete
+[03may2021 20:21:17.035] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\appleskin-client.toml is not correct. Correcting
+[03may2021 20:21:17.036] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.037] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to true
+[03may2021 20:21:17.037] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to true
+[03may2021 20:21:17.037] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to true
+[03may2021 20:21:17.038] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to true
+[03may2021 20:21:17.038] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to true
+[03may2021 20:21:17.038] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to true
+[03may2021 20:21:17.065] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsbuilder-client.toml is not correct. Correcting
+[03may2021 20:21:17.066] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.067] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.showProgressHud was corrected from null to true
+[03may2021 20:21:17.068] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.068] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorBeaconHeight was corrected from null to 30
+[03may2021 20:21:17.068] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.clientRenderDataTimeout was corrected from null to 10000
+[03may2021 20:21:17.069] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorFlashTimeout was corrected from null to 400
+[03may2021 20:21:17.069] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.baseProjectorVolume was corrected from null to 0.4
+[03may2021 20:21:17.070] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.useVBO was corrected from null to true
+[03may2021 20:21:17.072] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolsbuilder-common.toml is not correct. Correcting
+[03may2021 20:21:17.072] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.074] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderMaxRF was corrected from null to 1000000
+[03may2021 20:21:17.074] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRFPerTick was corrected from null to 20000
+[03may2021 20:21:17.075] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerOperation was corrected from null to 500
+[03may2021 20:21:17.077] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerLiquid was corrected from null to 300
+[03may2021 20:21:17.077] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerQuarry was corrected from null to 300
+[03may2021 20:21:17.078] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerSkipped was corrected from null to 50
+[03may2021 20:21:17.078] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerEntity was corrected from null to 5000
+[03may2021 20:21:17.085] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.builderRfPerPlayer was corrected from null to 40000
+[03may2021 20:21:17.086] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.tileEntityMode was corrected from null to MOVE_WHITELIST
+[03may2021 20:21:17.086] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.maxSpaceChamberDimension was corrected from null to 128
+[03may2021 20:21:17.088] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectTimer was corrected from null to 10
+[03may2021 20:21:17.088] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectRFPerItem was corrected from null to 20
+[03may2021 20:21:17.089] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.dimensionCostFactor was corrected from null to 5.0
+[03may2021 20:21:17.089] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectRFPerXP was corrected from null to 2.0
+[03may2021 20:21:17.089] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.collectRFPerTickPerArea was corrected from null to 0.5
+[03may2021 20:21:17.090] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.voidShapeCardFactor was corrected from null to 0.5
+[03may2021 20:21:17.090] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.silkquarryShapeCardFactor was corrected from null to 3.0
+[03may2021 20:21:17.090] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.fortunequarryShapeCardFactor was corrected from null to 2.0
+[03may2021 20:21:17.090] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryReplacE was corrected from null to minecraft:dirt
+[03may2021 20:21:17.093] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryTileEntities was corrected from null to true
+[03may2021 20:21:17.094] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryChunkloads was corrected from null to true
+[03may2021 20:21:17.095] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.shapeCardAllowed was corrected from null to true
+[03may2021 20:21:17.096] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryAllowed was corrected from null to true
+[03may2021 20:21:17.099] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.clearingQuarryAllowed was corrected from null to true
+[03may2021 20:21:17.099] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryBaseSpeed was corrected from null to 8
+[03may2021 20:21:17.099] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.quarryInfusionSpeedFactor was corrected from null to 20
+[03may2021 20:21:17.100] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.maxBuilderOffset was corrected from null to 260
+[03may2021 20:21:17.100] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.maxBuilderDimension was corrected from null to 512
+[03may2021 20:21:17.100] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key builder.oldSphereCylinderShape was corrected from null to false
+[03may2021 20:21:17.101] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.102] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.scannerMaxRF was corrected from null to 500000
+[03may2021 20:21:17.102] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.scannerRFPerTick was corrected from null to 20000
+[03may2021 20:21:17.102] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.scannerUsePerTick was corrected from null to 1000
+[03may2021 20:21:17.074] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\lostcities-common.toml is not correct. Correcting
+[03may2021 20:21:17.103] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.remoteScannerUsePerTick was corrected from null to 2000
+[03may2021 20:21:17.103] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorMaxRF was corrected from null to 2000000
+[03may2021 20:21:17.103] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorRFPerTick was corrected from null to 20000
+[03may2021 20:21:17.103] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.104] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickBase was corrected from null to 5000
+[03may2021 20:21:17.104] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.dimensionProfiles was corrected from null to []
+[03may2021 20:21:17.104] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickChunk was corrected from null to 0.1
+[03may2021 20:21:17.105] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickHostile was corrected from null to 1.0
+[03may2021 20:21:17.105] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickPassive was corrected from null to 0.5
+[03may2021 20:21:17.105] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickPlayer was corrected from null to 2.0
+[03may2021 20:21:17.105] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorUsePerTickEnergy was corrected from null to 5.0
+[03may2021 20:21:17.106] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorFilterCost was corrected from null to 0.5
+[03may2021 20:21:17.106] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorMaxRF was corrected from null to 500000
+[03may2021 20:21:17.106] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorRFPerTick was corrected from null to 10000
+[03may2021 20:21:17.106] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.projectorUsePerTick was corrected from null to 1000
+[03may2021 20:21:17.107] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\lostcities-server.toml is not correct. Correcting
+[03may2021 20:21:17.118] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.108] [modloading-worker-4/INFO] [com.raoulvdberge.refinedstorage.apiimpl.API/]: Found 1 RS API injection point
+[03may2021 20:21:17.107] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.ticksPerLocatorScan was corrected from null to 40
+[03may2021 20:21:17.121] [modloading-worker-4/INFO] [com.raoulvdberge.refinedstorage.apiimpl.API/]: Injected RS API in com.raoulvdberge.refinedstorageaddons.RSAddons RSAPI
+[03may2021 20:21:17.121] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.selectedProfile was corrected from null to <CHECK>
+[03may2021 20:21:17.122] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key profiles.selectedCustomJson was corrected from null to 
+[03may2021 20:21:17.121] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorEntitySafety was corrected from null to 10
+[03may2021 20:21:17.125] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.locatorMaxEnergyChunks was corrected from null to 25
+[03may2021 20:21:17.125] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.maxScannerOffset was corrected from null to 2048
+[03may2021 20:21:17.125] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.maxScannerDimension was corrected from null to 512
+[03may2021 20:21:17.126] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.surfaceAreaPerTick was corrected from null to 262144
+[03may2021 20:21:17.126] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scanner.planeSurfacePerTick was corrected from null to 40000
+[03may2021 20:21:17.127] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.129] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldMaxRF was corrected from null to 200000
+[03may2021 20:21:17.130] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRFPerTick was corrected from null to 5000
+[03may2021 20:21:17.130] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldMaxSize was corrected from null to 256
+[03may2021 20:21:17.132] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.maxShieldOffset was corrected from null to 128
+[03may2021 20:21:17.132] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.maxShieldDimension was corrected from null to 256
+[03may2021 20:21:17.133] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\jeresources.toml is not correct. Correcting
+[03may2021 20:21:17.133] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.maxDisjointShieldDistance was corrected from null to 64
+[03may2021 20:21:17.134] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfBase was corrected from null to 8
+[03may2021 20:21:17.134] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfCamo was corrected from null to 2
+[03may2021 20:21:17.134] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfShield was corrected from null to 2
+[03may2021 20:21:17.135] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerColumn was corrected from null to 4
+[03may2021 20:21:17.142] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerRow was corrected from null to 4
+[03may2021 20:21:17.143] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diyData was corrected from null to true
+[03may2021 20:21:17.146] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDevData was corrected from null to false
+[03may2021 20:21:17.147] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantsBlacklist was corrected from null to [flimflam, soulBound]
+[03may2021 20:21:17.148] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hiddenTabs was corrected from null to []
+[03may2021 20:21:17.149] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimensionsBlacklist was corrected from null to [-11]
+[03may2021 20:21:17.138] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfDamage was corrected from null to 1000
+[03may2021 20:21:17.154] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldRfDamagePlayer was corrected from null to 2000
+[03may2021 20:21:17.154] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shieldDamage was corrected from null to 5.0
+[03may2021 20:21:17.154] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.allowInvisibleShield was corrected from null to true
+[03may2021 20:21:17.154] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.shardsPerLootingKill was corrected from null to 2
+[03may2021 20:21:17.155] [modloading-worker-13/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield.lootingKillBonus was corrected from null to 3
+[03may2021 20:21:17.205] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\rftoolspower-common.toml is not correct. Correcting
+[03may2021 20:21:17.234] [modloading-worker-9/ERROR] [me.ichun.mods.ding.common.Ding/]: You are loading Ding on a server. Ding is a client only mod!
+[03may2021 20:21:17.238] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.241] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.242] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.tier1MaxRF was corrected from null to 500000
+[03may2021 20:21:17.243] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.tier2MaxRF was corrected from null to 4000000
+[03may2021 20:21:17.243] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.tier3MaxRF was corrected from null to 20000000
+[03may2021 20:21:17.243] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.tier1MaxRFPerTick was corrected from null to 250
+[03may2021 20:21:17.243] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.tier2MaxRFPerTick was corrected from null to 1000
+[03may2021 20:21:17.244] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.tier3MaxRFPerTick was corrected from null to 4000
+[03may2021 20:21:17.244] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.rfPerTickScale was corrected from null to 0.25
+[03may2021 20:21:17.244] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.powercell.networkMax was corrected from null to 729
+[03may2021 20:21:17.245] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.coalgenerator was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.245] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.coalgenerator.generatePerTick was corrected from null to 60
+[03may2021 20:21:17.245] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.coalgenerator.ticksPerCoal was corrected from null to 600
+[03may2021 20:21:17.245] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.coalgenerator.generatorMaxRF was corrected from null to 500000
+[03may2021 20:21:17.250] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.coalgenerator.generatorRFPerTick was corrected from null to 2000
+[03may2021 20:21:17.251] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.coalgenerator.generatorChargePerTick was corrected from null to 1000
+[03may2021 20:21:17.253] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.253] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.rfPerTick was corrected from null to 5000
+[03may2021 20:21:17.253] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.rfPerNormalCell was corrected from null to 1000000
+[03may2021 20:21:17.257] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.advancedFactor was corrected from null to 4
+[03may2021 20:21:17.259] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.simpleFactor was corrected from null to 4
+[03may2021 20:21:17.262] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.powerCellCostFactor was corrected from null to 1.1
+[03may2021 20:21:17.264] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.powerCellDistanceCap was corrected from null to 10000.0
+[03may2021 20:21:17.265] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.powerCellMinDistance was corrected from null to 100.0
+[03may2021 20:21:17.266] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.powerCellRFToolsDimensionAdvantage was corrected from null to 0.5
+[03may2021 20:21:17.269] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dimensionalcell.powercellChargePerTick was corrected from null to 30000
+[03may2021 20:21:17.275] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\mininggadgets-common.toml is not correct. Correcting
+[03may2021 20:21:17.275] [modloading-worker-4/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk_bucket`, expected `industrialforegoing`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:17.278] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.282] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.mining_gadget was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.284] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.mining_gadget.maxPower was corrected from null to 1000000
+[03may2021 20:21:17.285] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.mining_gadget.baseCost was corrected from null to 200
+[03may2021 20:21:17.285] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.286] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeSilkCost was corrected from null to 100
+[03may2021 20:21:17.286] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeMagnet was corrected from null to 25
+[03may2021 20:21:17.290] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeVoid was corrected from null to 10
+[03may2021 20:21:17.290] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeHeatsink was corrected from null to 50
+[03may2021 20:21:17.290] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeFortune1 was corrected from null to 30
+[03may2021 20:21:17.291] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeFortune2 was corrected from null to 60
+[03may2021 20:21:17.291] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeFortune3 was corrected from null to 100
+[03may2021 20:21:17.291] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeEfficiency1 was corrected from null to 10
+[03may2021 20:21:17.292] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeEfficiency2 was corrected from null to 20
+[03may2021 20:21:17.292] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeEfficiency3 was corrected from null to 30
+[03may2021 20:21:17.292] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeEfficiency4 was corrected from null to 40
+[03may2021 20:21:17.292] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeEfficiency5 was corrected from null to 50
+[03may2021 20:21:17.293] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\mysticalworld-common.toml is not correct. Correcting
+[03may2021 20:21:17.293] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeLight was corrected from null to 100
+[03may2021 20:21:17.293] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.upgradeFreeze was corrected from null to 100
+[03may2021 20:21:17.294] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.294] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.battery1 was corrected from null to 2000000
+[03may2021 20:21:17.294] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Copper_oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.294] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.battery2 was corrected from null to 5000000
+[03may2021 20:21:17.295] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Copper_oregen.oreChances was corrected from null to 8
+[03may2021 20:21:17.295] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key power.upgrades.battery3 was corrected from null to 10000000
+[03may2021 20:21:17.298] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Copper_oregen.veinSize was corrected from null to 12
+[03may2021 20:21:17.302] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Copper_oregen.minY was corrected from null to 32
+[03may2021 20:21:17.305] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Copper_oregen.maxY was corrected from null to 76
+[03may2021 20:21:17.307] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Tin_oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.308] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Tin_oregen.oreChances was corrected from null to 8
+[03may2021 20:21:17.309] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Tin_oregen.veinSize was corrected from null to 8
+[03may2021 20:21:17.309] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Tin_oregen.minY was corrected from null to 24
+[03may2021 20:21:17.309] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Tin_oregen.maxY was corrected from null to 64
+[03may2021 20:21:17.310] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Silver_oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.313] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Silver_oregen.oreChances was corrected from null to 4
+[03may2021 20:21:17.314] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Silver_oregen.veinSize was corrected from null to 8
+[03may2021 20:21:17.314] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Silver_oregen.minY was corrected from null to 0
+[03may2021 20:21:17.314] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Silver_oregen.maxY was corrected from null to 24
+[03may2021 20:21:17.315] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Lead_oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.315] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Lead_oregen.oreChances was corrected from null to 4
+[03may2021 20:21:17.315] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Lead_oregen.veinSize was corrected from null to 8
+[03may2021 20:21:17.315] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Lead_oregen.minY was corrected from null to 8
+[03may2021 20:21:17.316] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Lead_oregen.maxY was corrected from null to 32
+[03may2021 20:21:17.316] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Quicksilver_oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.316] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Quicksilver_oregen.oreChances was corrected from null to 3
+[03may2021 20:21:17.316] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Quicksilver_oregen.veinSize was corrected from null to 4
+[03may2021 20:21:17.316] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Quicksilver_oregen.minY was corrected from null to 0
+[03may2021 20:21:17.316] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Quicksilver_oregen.maxY was corrected from null to 16
+[03may2021 20:21:17.317] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Amethyst_oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.317] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Amethyst_oregen.oreChances was corrected from null to 4
+[03may2021 20:21:17.317] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Amethyst_oregen.veinSize was corrected from null to 3
+[03may2021 20:21:17.318] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:water_arrow
+[03may2021 20:21:17.318] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Amethyst_oregen.minY was corrected from null to 0
+[03may2021 20:21:17.318] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.Amethyst_oregen.maxY was corrected from null to 24
+[03may2021 20:21:17.320] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.323] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Deer_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.323] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Deer_spawn.spawnChance was corrected from null to 6
+[03may2021 20:21:17.324] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Deer_spawn.min was corrected from null to 2
+[03may2021 20:21:17.324] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Deer_spawn.max was corrected from null to 4
+[03may2021 20:21:17.324] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Deer_spawn.biomes was corrected from null to FOREST,COLD,CONIFEROUS,PLAINS,
+[03may2021 20:21:17.324] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:box_turtle
+[03may2021 20:21:17.324] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Sprout_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.329] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Sprout_spawn.spawnChance was corrected from null to 2
+[03may2021 20:21:17.332] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Sprout_spawn.min was corrected from null to 2
+[03may2021 20:21:17.334] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Sprout_spawn.max was corrected from null to 4
+[03may2021 20:21:17.328] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:arrau_turtle
+[03may2021 20:21:17.338] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Sprout_spawn.biomes was corrected from null to JUNGLE,LUSH,MAGICAL,RIVER,FOREST,BEACH,
+[03may2021 20:21:17.340] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Silver Fox_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.340] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:starshell_turtle
+[03may2021 20:21:17.341] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Silver Fox_spawn.spawnChance was corrected from null to 4
+[03may2021 20:21:17.344] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:oak_fish_mount
+[03may2021 20:21:17.344] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Silver Fox_spawn.min was corrected from null to 1
+[03may2021 20:21:17.345] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:spruce_fish_mount
+[03may2021 20:21:17.345] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Silver Fox_spawn.max was corrected from null to 3
+[03may2021 20:21:17.346] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:birch_fish_mount
+[03may2021 20:21:17.346] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Silver Fox_spawn.biomes was corrected from null to FOREST,COLD,CONIFEROUS,
+[03may2021 20:21:17.349] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Beetle_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.350] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Beetle_spawn.spawnChance was corrected from null to 5
+[03may2021 20:21:17.350] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Beetle_spawn.min was corrected from null to 2
+[03may2021 20:21:17.350] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Beetle_spawn.max was corrected from null to 4
+[03may2021 20:21:17.351] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Beetle_spawn.biomes was corrected from null to SWAMP,JUNGLE,FOREST,PLAINS,
+[03may2021 20:21:17.351] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Frog_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.351] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Frog_spawn.spawnChance was corrected from null to 6
+[03may2021 20:21:17.349] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:jungle_fish_mount
+[03may2021 20:21:17.352] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Frog_spawn.min was corrected from null to 2
+[03may2021 20:21:17.358] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:acacia_fish_mount
+[03may2021 20:21:17.358] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Frog_spawn.max was corrected from null to 4
+[03may2021 20:21:17.360] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:dark_oak_fish_mount
+[03may2021 20:21:17.360] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Frog_spawn.biomes was corrected from null to SWAMP,JUNGLE,BEACH,RIVER,
+[03may2021 20:21:17.364] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Endermini_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.364] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Endermini_spawn.spawnChance was corrected from null to 1
+[03may2021 20:21:17.370] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Endermini_spawn.min was corrected from null to 1
+[03may2021 20:21:17.375] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Endermini_spawn.max was corrected from null to 2
+[03may2021 20:21:17.378] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Endermini_spawn.biomes was corrected from null to END,
+[03may2021 20:21:17.381] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Owl_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.382] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Owl_spawn.spawnChance was corrected from null to 9
+[03may2021 20:21:17.382] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Owl_spawn.min was corrected from null to 1
+[03may2021 20:21:17.383] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Owl_spawn.max was corrected from null to 3
+[03may2021 20:21:17.385] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Owl_spawn.biomes was corrected from null to CONIFEROUS,SPOOKY,MAGICAL,FOREST,MOUNTAIN,SNOWY,
+[03may2021 20:21:17.389] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Lava Cat_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.390] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Lava Cat_spawn.spawnChance was corrected from null to 1
+[03may2021 20:21:17.391] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Lava Cat_spawn.min was corrected from null to 1
+[03may2021 20:21:17.391] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Lava Cat_spawn.max was corrected from null to 1
+[03may2021 20:21:17.392] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.Lava Cat_spawn.biomes was corrected from null to NETHER,
+[03may2021 20:21:17.392] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.silkworm_spawn was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.392] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.silkworm_spawn.leafDrops was corrected from null to true
+[03may2021 20:21:17.393] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.silkworm_spawn.leafDropChance was corrected from null to 65
+[03may2021 20:21:17.393] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.silkworm_spawn.successChance was corrected from null to 1
+[03may2021 20:21:17.394] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob_spawns.silkworm_spawn.growthChance was corrected from null to 68
+[03may2021 20:21:17.428] [modloading-worker-3/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[03may2021 20:21:17.441] [modloading-worker-3/INFO] [Mystical Agriculture/]: Registered plugin: com.github.elrol.industrialagriculture.plugin.MAPlugin
+[03may2021 20:21:17.443] [modloading-worker-3/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[03may2021 20:21:17.455] [modloading-worker-3/INFO] [com.github.elrol.industrialagriculture.IndustrialAgriculture/]: Registering Souls
+[03may2021 20:21:17.456] [modloading-worker-3/INFO] [com.blakebr0.mysticalagriculture.registry.MobSoulTypeRegistry/]: industrialagriculture tried to register a mob soul type for entity ids [minecraft:turtle], but they already have one registered, skipping
+[03may2021 20:21:17.548] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\mysticalagriculture-common.toml is not correct. Correcting
+[03may2021 20:21:17.551] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.559] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.inferiumDropChance was corrected from null to 0.2
+[03may2021 20:21:17.559] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.infusionCrystalUses was corrected from null to 1000
+[03may2021 20:21:17.559] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.growthAcceleratorCooldown was corrected from null to 10
+[03may2021 20:21:17.561] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key General.fertilizedEssenceChance was corrected from null to 0.1
+[03may2021 20:21:17.564] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.565] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.souliumOreChance was corrected from null to 0.05
+[03may2021 20:21:17.603] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity beetle
+[03may2021 20:21:17.605] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity deer
+[03may2021 20:21:17.606] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frog
+[03may2021 20:21:17.610] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity silver_fox
+[03may2021 20:21:17.612] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity sprout
+[03may2021 20:21:17.619] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endermini
+[03may2021 20:21:17.622] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lava_cat
+[03may2021 20:21:17.624] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity owl
+[03may2021 20:21:17.630] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity silkworm
+[03may2021 20:21:17.750] [modloading-worker-6/INFO] [forbidden_arcanus/]: Built Config: C:\Magu\server1.14JEI\config\forbidden_arcanus-client.toml
+[03may2021 20:21:17.751] [modloading-worker-6/INFO] [forbidden_arcanus/]: Loaded Config: C:\Magu\server1.14JEI\config\forbidden_arcanus-client.toml
+[03may2021 20:21:17.752] [modloading-worker-6/INFO] [forbidden_arcanus/]: Built Config: C:\Magu\server1.14JEI\config\forbidden_arcanus-server.toml
+[03may2021 20:21:17.753] [modloading-worker-6/INFO] [forbidden_arcanus/]: Loaded Config: C:\Magu\server1.14JEI\config\forbidden_arcanus-server.toml
+[03may2021 20:21:17.753] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Magu\server1.14JEI\config\forbidden_arcanus-server.toml is not correct. Correcting
+[03may2021 20:21:17.753] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.753] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generateArcaneCrystalOre was corrected from null to true
+[03may2021 20:21:17.754] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.maxArcaneCrystalOreVeinSize was corrected from null to 6
+[03may2021 20:21:17.754] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.ArcaneCrystalOreCount was corrected from null to 3
+[03may2021 20:21:17.754] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.ArcaneCrystalOreMinHeight was corrected from null to 0
+[03may2021 20:21:17.754] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.ArcaneCrystalOreMaxHeight was corrected from null to 20
+[03may2021 20:21:17.755] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generateRunestone was corrected from null to true
+[03may2021 20:21:17.755] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.maxRunestoneVeinSize was corrected from null to 4
+[03may2021 20:21:17.755] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.RunestoneCount was corrected from null to 3
+[03may2021 20:21:17.755] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.RunestoneMinHeight was corrected from null to 0
+[03may2021 20:21:17.755] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.RunestoneMaxHeight was corrected from null to 25
+[03may2021 20:21:17.756] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generateDarkRunestone was corrected from null to true
+[03may2021 20:21:17.756] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.maxDarkRunestoneVeinSize was corrected from null to 5
+[03may2021 20:21:17.756] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.DarkRunestoneCount was corrected from null to 3
+[03may2021 20:21:17.756] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.DarkRunestoneMinHeight was corrected from null to 0
+[03may2021 20:21:17.757] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.DarkRunestoneMaxHeight was corrected from null to 9
+[03may2021 20:21:17.757] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.generateDarkStone was corrected from null to true
+[03may2021 20:21:17.757] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.maxDarkStoneVeinSize was corrected from null to 20
+[03may2021 20:21:17.757] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.DarkStoneCount was corrected from null to 20
+[03may2021 20:21:17.758] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.DarkStoneMinHeight was corrected from null to 0
+[03may2021 20:21:17.758] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oregen.DarkStoneMaxHeight was corrected from null to 8
+[03may2021 20:21:17.758] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen was corrected from null to SimpleCommentedConfig:{}
+[03may2021 20:21:17.759] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.generateCherrywood was corrected from null to true
+[03may2021 20:21:17.759] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.generateMysterywood was corrected from null to true
+[03may2021 20:21:17.759] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.generateEdelwood was corrected from null to true
+[03may2021 20:21:17.759] [modloading-worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.generateYellowOrchid was corrected from null to true
+[03may2021 20:21:18.085] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity foxhound
+[03may2021 20:21:18.239] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stoneling
+[03may2021 20:21:18.370] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity glass_frame
+[03may2021 20:21:18.371] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity colored_frame
+[03may2021 20:21:18.458] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frog
+[03may2021 20:21:18.493] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity crab
+[03may2021 20:21:18.547] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity chest_passenger
+[03may2021 20:21:18.563] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gravisand
+[03may2021 20:21:18.565] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wrapped
+[03may2021 20:21:18.575] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity pickarang
+[03may2021 20:21:18.755] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after CONSTRUCT: 3 jobs
+[03may2021 20:21:18.867] [Server thread/INFO] [thelm.jaopca.data.DataCollector/]: Found 986 unique defined tags
+[03may2021 20:21:19.697] [Server thread/INFO] [thelm.jaopca.data.DataCollector/]: Found 7388 unique defined recipes
+[03may2021 20:21:19.739] [Server thread/INFO] [thelm.jaopca.data.DataCollector/]: Found 4045 unique defined loot tables
+[03may2021 20:21:19.771] [Server thread/INFO] [thelm.jaopca.data.DataCollector/]: Found 1635 unique defined advancements
+[03may2021 20:21:19.849] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.uselessmod.UselessModNonIngotModule has missing mod dependencies, skipping
+[03may2021 20:21:19.849] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.uselessmod.UselessModModule has missing mod dependencies, skipping
+[03may2021 20:21:19.850] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.uselessmod.UselessModCompatModule has missing mod dependencies, skipping
+[03may2021 20:21:19.854] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.PixelLibModule has missing mod dependencies, skipping
+[03may2021 20:21:19.854] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.omegacraft.OmegaCraftNonIngotModule has missing mod dependencies, skipping
+[03may2021 20:21:19.854] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.omegacraft.OmegaCraftModule has missing mod dependencies, skipping
+[03may2021 20:21:19.854] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.omegacraft.OmegaCraftCompatModule has missing mod dependencies, skipping
+[03may2021 20:21:19.855] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.mekanism.MekanismNonIngotModule has missing mod dependencies, skipping
+[03may2021 20:21:19.855] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.mekanism.MekanismModule has missing mod dependencies, skipping
+[03may2021 20:21:19.856] [Server thread/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.mekanism.MekanismCompatModule has missing mod dependencies, skipping
+[03may2021 20:21:19.890] [Server thread/INFO] [thelm.jaopca.materials.MaterialHandler/]: Added 58 materials
+[03may2021 20:21:20.080] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.082] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.082] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.compressed_iron`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.083] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.compressed_iron`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.083] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.corrupti`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.083] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.corrupti`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.084] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.crimson_iron`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.084] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.crimson_iron`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.085] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.crimson_steel`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.085] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.crimson_steel`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.085] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.dragonstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.085] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.dragonstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.085] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.end_crystal_gem`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.086] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.end_crystal_gem`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.086] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.glowstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.086] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.glowstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.086] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.mana`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.087] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.mana`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.087] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.mana_diamond`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.087] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.mana_diamond`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.088] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.mundabitur`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.088] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.mundabitur`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.088] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.neptunium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.088] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.neptunium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.088] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.nether_brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.088] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.nether_brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.089] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.obsidian`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.obsidian`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.prismarine`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.prismarine`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.redstone_alloy`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.redstone_alloy`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.refined_iron`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.091] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.refined_iron`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.092] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `silents_mechanisms_chunks.quicksilver`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.092] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `silents_mechanisms_chunks.tungsten`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[03may2021 20:21:20.093] [Server thread/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'jaopca' took 1.324 s to run a deferred task.
+[03may2021 20:21:20.094] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:01.335
+[03may2021 20:21:20.095] [Server thread/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[03may2021 20:21:20.095] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Light Level Overlay Reloaded (llor) has failed to load correctly
+§7Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:201) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[?:?]
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:45) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:600) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281]
+[03may2021 20:21:20.104] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: C:\Magu\server1.14JEI\.\crash-reports\crash-2021-05-03_20.21.20-server.txt
+[03may2021 20:21:20.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03may2021 20:21:20.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03may2021 20:21:20.108] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+java.lang.RuntimeException: The server has failed to initialize correctly due to mod loading errors. Examine the crash report for more details.
+	at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:182) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:981) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:523) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:555) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:544) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:663) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281]

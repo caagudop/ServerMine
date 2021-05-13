@@ -1,0 +1,130 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2021-05-03 20:31:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2021-05-03 20:31:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "traverse:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2021-05-03 20:30:27 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/gear/spear": {
+    "criteria": {
+      "has_item": "2021-05-03 20:30:53 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/gear/shovel": {
+    "criteria": {
+      "has_item": "2021-05-03 20:30:53 +0200"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2021-05-03 20:30:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/gear/pickaxe": {
+    "criteria": {
+      "has_item": "2021-05-03 20:30:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "silentgear:blueprint_pickaxe": {
+    "criteria": {
+      "blueprint": "2021-05-03 20:30:53 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "game_start": "2021-05-03 20:30:27 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/gear/axe": {
+    "criteria": {
+      "has_item": "2021-05-03 20:30:53 +0200"
+    },
+    "done": true
+  },
+  "bluepower:root": {
+    "criteria": {
+      "root": "2021-05-03 20:30:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2021-05-03 20:31:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2021-05-03 20:34:26 +0200"
+    },
+    "done": true
+  },
+  "statues:root": {
+    "criteria": {
+      "core": "2021-05-03 20:30:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_tundra": "2021-05-03 20:30:27 +0200",
+      "minecraft:snowy_beach": "2021-05-03 20:34:16 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

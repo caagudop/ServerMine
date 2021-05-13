@@ -1,0 +1,190 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 3/05/21 20:23
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Ambient Sounds (ambientsounds) encountered an error during the common_setup event phase
+§7Attempted to load class net/minecraft/client/world/ClientWorld for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:201) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:154) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.begin(ServerModLoader.java:46) ~[?:?] {re:classloading}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:600) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_281, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2116405824 bytes (2018 MB) / 3537895424 bytes (3374 MB) up to 7592738816 bytes (7241 MB)
+	CPUs: 12
+	JVM Flags: 0 total; 
+	ModLauncher: 4.1.0+62+5bfa59b
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/eventbus-1.0.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.14.4-28.2.23.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.2.23.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-1.0.5-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.14.4-28.2.23.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.14.4-28.2.23.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.14.4-28.2.23.jar fml TRANSFORMATIONSERVICE 
+	FML: 28.2
+	Forge: net.minecraftforge:28.2.23
+	FML Language Providers: 
+		javafml@28.2
+		minecraft@1
+	Mod List: 
+		CyclopsCore-1.14.4-1.6.1.jar Cyclops Core {cyclopscore@1.6.1 SIDED_SETUP}
+		planttech2-0.01.06.jar PlantTech 2 {planttech2@0.01.06 SIDED_SETUP}
+		SilentMechanisms-1.14.4-0.6.13+49.jar Silent's Mechanisms {silents_mechanisms@0.6.13+49 SIDED_SETUP}
+		Industrial Agriculture - Core-1.14.4-1.5.2.jar Industrial Agriculture {industrialagriculture@1.14.4-1.5.2 SIDED_SETUP}
+		bambooeverything-1.14-1.5.0.jar Bamboo Everything {bambooeverything@1.14-1.5.0 SIDED_SETUP}
+		modnametooltip_1.14.3-1.12.1.jar Mod Name Tooltip {modnametooltip@1.12.1 SIDED_SETUP}
+		KleeSlabs_1.14.4-7.4.8.jar KleeSlabs {kleeslabs@7.4.8 SIDED_SETUP}
+		noautojump-1.14.4-1.3.jar No Auto-Jump {noautojump@1.14.4-1.3 SIDED_SETUP}
+		Neat 1.5-19.jar Neat {neat@1.5-19 SIDED_SETUP}
+		IronJetpacks-1.14.4-2.0.3.jar Iron Jetpacks {ironjetpacks@2.0.3 SIDED_SETUP}
+		xnet-1.14-1.8.7-alpha.jar XNet {xnet@1.14-1.8.7-alpha SIDED_SETUP}
+		XaerosWorldMap_1.5.5_Forge_1.14.4.jar Xaero's World Map {xaeroworldmap@1.5.5 SIDED_SETUP}
+		Controlling-5.0.6.jar Controlling {controlling@5.0.6 SIDED_SETUP}
+		Placebo-1.14.4-2.3.5.jar Placebo {placebo@2.3.5 SIDED_SETUP}
+		dankstorage-1.15.jar Dank Storage {dankstorage@1.15 SIDED_SETUP}
+		Powah-1.14.4-0.2.6.jar Powah {powah@0.2.6 SIDED_SETUP}
+		theloader-1.14.4-1.0.0.jar The Loader {theloader@1.14.4-1.0.0 SIDED_SETUP}
+		rangedpumps-0.6.1.jar Ranged Pumps {rangedpumps@0.6.1 SIDED_SETUP}
+		Fence Jumper-1.14.4-1.0.8.jar FenceJumper {fencejumper@version SIDED_SETUP}
+		WitherSkeletonTweaks-1.14.4-3.1.0.jar Wither Skeleton Tweaks {wstweaks@3.1.0 SIDED_SETUP}
+		Bookshelf-1.14.4-4.4.72.jar Bookshelf {bookshelf@4.4.72 SIDED_SETUP}
+		randompatches-1.14.4-1.21.0.0.jar RandomPatches {randompatches@1.14.4-1.21.0.0 SIDED_SETUP}
+		buildinggadgets-3.1.1b.jar Building Gadgets {buildinggadgets@3.1.1b SIDED_SETUP}
+		DarkUtilities-1.14.4-2.0.11.jar Dark Utilities {darkutils@2.0.11 SIDED_SETUP}
+		Apotheosis-1.14.4-2.4.4.jar Apotheosis {apotheosis@2.4.4 SIDED_SETUP}
+		inventorygenerators-1.14.4-1.0.1.jar Inventory Generators {inventorygenerators@1.14.4-1.0.1 SIDED_SETUP}
+		TMechworks-1.14.4-2.0.1.jar Tinkers' Mechworks {tmechworks@2.0.1 SIDED_SETUP}
+		JustEnoughResources-1.14.4-0.10.0.70.jar Just Enough Resources {jeresources@0.10.0.70 SIDED_SETUP}
+		BetterThanMending-1.3.2.jar BetterThanMending {betterthanmending@1.3.2 SIDED_SETUP}
+		MysticalAgradditions-1.14.4-2.0.0.jar Mystical Agradditions {mysticalagradditions@2.0.0 SIDED_SETUP}
+		mysticallib-1.14.4-1.14.0.jar Mystical Lib {mysticallib@1.14.4-1.14.0 SIDED_SETUP}
+		absentbydesign-1.14.4-1.0.5.jar Absent By Design Mod {absentbydesign@1.14.4-1.0.5 SIDED_SETUP}
+		refinedstorage-1.7.3.jar Refined Storage {refinedstorage@1.7.3 SIDED_SETUP}
+		industrial-foregoing-1.14.4-2.1.2-582ea8b.jar Industrial Foregoing {industrialforegoing@2.1.2 SIDED_SETUP}
+		torchmaster-2.0.0-rc2.jar Torchmaster {torchmaster@2.0.0-rc2 SIDED_SETUP}
+		AmbientSounds_v3.0.14_mc1.14.4.jar Ambient Sounds {ambientsounds@3.0.3 ERROR}
+		Industrial Agriculture[Silents Mechanisms]-1.14.4-1.5.3.jar Industrial Agriculture Plugin-Silent's Mechanisms {iapsm@1.14.4-1.5.3 SIDED_SETUP}
+		Blur-1.1.0-1.jar Blur {blur@1.1.0-1 SIDED_SETUP}
+		valkyrielib-3.0.0.8.jar ValkyrieLib {valkyrielib@3.0.0.8 SIDED_SETUP}
+		Lollipop-1.14.4-0.0.23.jar Lollipop {lollipop@0.0.23 SIDED_SETUP}
+		SilentGear-1.14.4-1.4.6+72.jar Silent Gear {silentgear@1.4.6+72 SIDED_SETUP}
+		Masonry-0.3.1.jar Masonry {masonry@1.0 SIDED_SETUP}
+		fairylights-2.1.15-1.14.4.jar Fairy Lights {fairylights@2.1.15 SIDED_SETUP}
+		portality-1.14.4-2.0.4-b0b3467.jar Portality {portality@2.0.4 SIDED_SETUP}
+		curios-FORGE-1.14.4-1.0.6.1.jar Curios API {curios@FORGE-1.14.4-1.0.6.1 SIDED_SETUP}
+		Botania r1.11-377.jar Botania {botania@r1.11-377 SIDED_SETUP}
+		Patchouli-1.14.4-1.1-25.jar Patchouli {patchouli@1.14.4-1.1-25 SIDED_SETUP}
+		AutoRegLib-1.4-35.jar AutoRegLib {arl@1.4-35 SIDED_SETUP}
+		RandomThings-MC1.14.4-5.0.1.jar Random Things {randomthings@5.0.1 SIDED_SETUP}
+		OreExcavation-1.6.147.jar Ore Excavation {oreexcavation@NONE SIDED_SETUP}
+		lostcities-1.14-2.0.28-alpha.jar LostCities {lostcities@1.14-2.0.28-alpha SIDED_SETUP}
+		libnonymous-1.14.4-1.0.4.25.jar Libnonymous {libnonymous@1.0.4.25 SIDED_SETUP}
+		tombstone-4.2.0-1.14.4.jar Corail Tombstone {tombstone@4.2.0 SIDED_SETUP}
+		NaturesAura-20.1.jar Nature's Aura {naturesaura@version SIDED_SETUP}
+		ChunkNoGoByeBye-1.14.4-1.0.3.jar ChunkNoGoByeBye {chunknogobyebye@1.14.4-1.0.3 SIDED_SETUP}
+		curiouselytra-FORGE-1.14.4-1.0.jar Curious Elytra {curiouselytra@FORGE-1.14.4-1.0 SIDED_SETUP}
+		cc-tweaked-1.14.4-1.86.2.jar CC: Tweaked {computercraft@1.86.2 SIDED_SETUP}
+		AI-Improvements-1.14.4-0.3.0.jar AI-Improvements {aiimprovements@0.2.2 SIDED_SETUP}
+		nosoliciting-1.1.jar No Soliciting {nosoliciting@1.1 SIDED_SETUP}
+		BetterBurning-1.14.4-1.0.1.jar BetterBurning {betterburning@1.0.1 SIDED_SETUP}
+		bwncr-1.14.4-3.5.12.jar Bad Wither No Cookie Reloaded {bwncr@1.14.4-3.5.12 SIDED_SETUP}
+		speedyladders-1.14.4-4.jar Speedy Ladders {speedyladders@1.14.4-4 SIDED_SETUP}
+		FastLeafDecay-v17.jar FastLeafDecay {fastleafdecay@v17 SIDED_SETUP}
+		StevesFactoryManager-1.14.4-3.0.0-alpha25.jar Steve's Factory Manager {sfm@1.14.4-3.0.0-alpha SIDED_SETUP}
+		Cyclic-1.14.4-0.1.3.jar Cyclic {cyclic@1.14.4-0.1.3 SIDED_SETUP}
+		inftrading_1.14-1.0.jar Infinite Trading {inftrading@1.0 SIDED_SETUP}
+		inventorysorter-1.14.4-16.2.0.jar Simple Inventory Sorter {inventorysorter@16.2.0 SIDED_SETUP}
+		Cucumber-1.14.4-2.0.6.jar Cucumber Library {cucumber@2.0.6 SIDED_SETUP}
+		craftingstation-2.1.5a.jar Crafting Station {craftingstation@2.1.5a SIDED_SETUP}
+		jei-1.14.4-6.0.0.27.jar Just Enough Items {jei@6.0.0.27 SIDED_SETUP}
+		metalbarrels-1.4.jar Metal Barrels {metalbarrels@1.4 SIDED_SETUP}
+		Druidcraft-1.14-0.2.32.jar Druidcraft {druidcraft@0.2.32 SIDED_SETUP}
+		AttributeFix-1.14.4-3.0.3.jar AttributeFix {attributefix@3.0.3 SIDED_SETUP}
+		caelus-FORGE-1.14.4-1.0.1.1.jar Caelus API {caelus@FORGE-1.14.4-1.0.1.1 SIDED_SETUP}
+		ensorcellation-1.14.4-0.2.0b.jar Ensorcellation {ensorcellation@0.2.0b SIDED_SETUP}
+		Waystones_1.14.4-5.1.1.jar Waystones {waystones@5.1.1 SIDED_SETUP}
+		Clumps-4.0.0.jar Clumps {clumps@4.0.0 SIDED_SETUP}
+		enviromats-2.0.0.9.jar Environmental Materials {enviromats@2.0.0.9 SIDED_SETUP}
+		NaturesCompass-1.14.4-1.8.3.jar Nature's Compass {naturescompass@1.14.4-1.8.3 SIDED_SETUP}
+		EnderBags-1.14.4-4.2.0.jar Ender Bags {ender_bags@4.2.0 SIDED_SETUP}
+		SimpleStorageNetwork-1.14.4-0.2.0.jar Simple Storage Network {storagenetwork@1.14.4-0.2.0 SIDED_SETUP}
+		gardentools-1.14.4-1.0.0.jar Garden Tools {gardentools@1.14.4-1.0.0 SIDED_SETUP}
+		BotanyPots-1.14.4-1.0.9.jar BotanyPots {botanypots@1.0.9 SIDED_SETUP}
+		DungeonCrawl-1.14.4-1.6.1.jar Dungeon Crawl {dungeoncrawl@1.6.1 SIDED_SETUP}
+		cofh_core-1.14.4-0.2.0b.jar CoFH Core {cofh_core@0.2.0b SIDED_SETUP}
+		BonsaiTrees-2.0.2.35.jar Bonsai Trees 2 {bonsaitrees2@2.0.2.35 SIDED_SETUP}
+		alib-1.14.4-8.jar A Lib {alib@1.14.4-8 SIDED_SETUP}
+		mcjtylib-1.14-3.5.17-alpha.jar McJtyLib {mcjtylib@1.14-3.5.17-alpha SIDED_SETUP}
+		rftoolsbase-1.14-0.0.12-alpha.jar RFToolsBase {rftoolsbase@1.14-0.0.12-alpha SIDED_SETUP}
+		rftoolsstorage-1.14-0.0.7-alpha.jar RFToolsStorage {rftoolsstorage@1.14-0.0.7-alpha SIDED_SETUP}
+		restrictions-1.14-1.3.10.jar Restrictions {restrictions@1.14-1.3.10 SIDED_SETUP}
+		ClickMachine-1.14.4-2.1.2.jar Click Machine {clickmachine@2.1.2 SIDED_SETUP}
+		ToastControl-1.14.4-2.2.0.jar Toast Control {toastcontrol@2.2.0 SIDED_SETUP}
+		PackingTape-1.14.4-0.9.2.jar Packing Tape {packingtape@0.9.2 SIDED_SETUP}
+		traverse-1.14.4-2.0.3.jar Traverse {traverse@1.14.4-2.0.3 SIDED_SETUP}
+		mininggadgets-1.2.3.jar Mining Gadgets {mininggadgets@1.2.3 SIDED_SETUP}
+		CraftTweaker-1.14.4-5.0.1.162.jar CraftTweaker {crafttweaker@5.0.1.162 SIDED_SETUP}
+		rftoolspower-1.14-1.2.12-alpha.jar RFToolsPower {rftoolspower@1.14-1.2.12-alpha SIDED_SETUP}
+		mysticalworld-1.14.4-1.7.2.jar Mystical World {mysticalworld@1.14.4-1.7.2 SIDED_SETUP}
+		extradisks-1.14.4-1.1.jar Extra Disks {extradisks@1.14.4-1.1 SIDED_SETUP}
+		forge-1.14.4-28.2.23-universal.jar Forge {forge@28.2.23 SIDED_SETUP}
+		minicoal2-1.14.4-b16-universal.jar MiniCoal 2 {minicoal2@1.14.4-b16-universal SIDED_SETUP}
+		ColossalChests-1.14.4-1.7.6.jar ColossalChests {colossalchests@1.7.6 SIDED_SETUP}
+		MysticalAgriculture-1.14.4-2.0.6.jar Mystical Agriculture {mysticalagriculture@2.0.6 SIDED_SETUP}
+		ironchest-1.14.4-9.1.5.jar Iron Chests {ironchest@1.14.3-9.0.3 SIDED_SETUP}
+		CraftingTweaks_1.14.4-10.2.1.jar Crafting Tweaks {craftingtweaks@10.2.1 SIDED_SETUP}
+		Trashed-1.14.4-1.1.1.jar Trashed {trashed@1.1.1 SIDED_SETUP}
+		forge-1.14.4-28.2.23-server.jar Minecraft {minecraft@1.14.4 SIDED_SETUP}
+		rftoolsutility-1.14-1.2.14-alpha.jar RFToolsUtility {rftoolsutility@1.14-1.2.14-alpha SIDED_SETUP}
+		theoneprobe-1.14-1.4.37.jar The One Probe {theoneprobe@NONE SIDED_SETUP}
+		swingthroughgrass-1.14.4-1.3.2.jar SwingThroughGrass {swingthroughgrass@1.14.4-1.3.2 SIDED_SETUP}
+		MouseTweaks-2.13-mc1.14.4.jar Mouse Tweaks {mousetweaks@2.13 SIDED_SETUP}
+		titanium-1.14.4-2.2.10.jar Titanium {titanium@2.2.10 SIDED_SETUP}
+		SilentLib-1.14.4-4.4.0+44.jar Silent Lib {silentlib@4.4.0+44 SIDED_SETUP}
+		bluepower-1.14.4-0.3.183-alpha-universal.jar Blue Power {bluepower@0.3.183-alpha SIDED_SETUP}
+		forbidden_arcanus-1.14.4-1.5.jar Forbidden & Arcanus {forbidden_arcanus@1.14.4-1.5 SIDED_SETUP}
+		archers_paradox-1.14.4-0.1.0a.jar Archer's Paradox {archers_paradox@0.1.0b SIDED_SETUP}
+		Ding-1.14.4-1.1.0.jar Ding {ding@1.1.0 SIDED_SETUP}
+		rftoolsbuilder-1.14-1.2.12-alpha.jar RFToolsBuilder {rftoolsbuilder@1.14-1.2.12-alpha SIDED_SETUP}
+		foamdome-3.0.0.jar Foam Dome {foamdome@3.0.0 SIDED_SETUP}
+		Quark-r2.0-210.jar Quark {quark@r2.0-210 SIDED_SETUP}
+		Mantle-1.14.4-1.4.32.jar Mantle {mantle@1.4.32 SIDED_SETUP}
+		Xaeros_Minimap_20.2.0_Forge_1.14.4.jar Xaero's Minimap {xaerominimap@20.2.0 SIDED_SETUP}
+		JAOPCA-1.14.4-3.0.0.14.jar JAOPCA {jaopca@3.0.0.14 SIDED_SETUP}
+		FastWorkbench-1.14.4-2.1.4.jar FastWorkbench {fastbench@2.1.4 SIDED_SETUP}
+		StorageDrawers-1.14.4-6.0.5.jar Storage Drawers {storagedrawers@1.14.4-6.0.3 SIDED_SETUP}
+		backpacked-1.4.0-1.14.4.jar Backpacked {backpacked@1.4.0 SIDED_SETUP}
+		Statues-1.14.4-0.1.3.2.jar Statues Mod {statues@0.1.3.2 SIDED_SETUP}
+		simplytea-2.0.4.jar Simply Tea {simplytea@2.0.4 SIDED_SETUP}
+		tubesreloaded-1.14.4-1.1.1c.jar Tubes Reloaded {tubesreloaded@1.14.4-1.1.1c SIDED_SETUP}
+		FastFurnace-1.14.4-2.2.4.jar FastFurnace {fastfurnace@2.2.4 SIDED_SETUP}
+		World-Stripper-1.7.2-1.14.4.jar World Stripper {worldstripper@version SIDED_SETUP}
+		AppleSkin-mc1.14.4-forge-1.0.13.jar AppleSkin {appleskin@1.0.13 SIDED_SETUP}
+		RefinedRelocation_1.14.4-6.2.6.jar Refined Relocation {refinedrelocation@6.2.6 SIDED_SETUP}
+		Aquaculture-1.14.4-2.0.7.jar Aquaculture 2 {aquaculture@1.14.4-2.0.7 SIDED_SETUP}
+		refinedstorageaddons-0.5.jar Refined Storage Addons {refinedstorageaddons@0.5 SIDED_SETUP}
+		SolarGeneration-1.14.4-1.3.0.jar Solar Generation {solargeneration@1.3.0 SIDED_SETUP}
+		CosmeticArmorReworked-1.14.4-v1a.jar CosmeticArmorReworked {cosmeticarmorreworked@1.14.4-v1a SIDED_SETUP}
+		DefaultOptions_1.14.4-10.2.7.jar Default Options {defaultoptions@10.2.7 SIDED_SETUP}
+	Data Packs: 
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)

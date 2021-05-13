@@ -1,0 +1,1 @@
+java -Xmx14336M -Xms12288M -jar forge-1.14.4-28.2.23.jar nogui
