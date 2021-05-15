@@ -407,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/composter": {
+    "criteria": {
+      "has_wooden_fences": "2021-05-13 23:23:52 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld.metals/iron_knife": {
     "criteria": {
       "has_iron_ingot": "2021-05-03 22:15:41 +0200"
@@ -482,6 +488,12 @@
   "mysticalworld:recipes/mysticalworld.metals/tin_axe": {
     "criteria": {
       "has_ingots_tin": "2021-05-03 23:11:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-05-14 00:00:29 +0200"
     },
     "done": true
   },
@@ -875,6 +887,12 @@
   "rftoolsbuilder:recipes/rftoolsbuilder/shape_card": {
     "criteria": {
       "iron_ingot": "2021-05-03 22:15:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2021-05-13 23:47:18 +0200"
     },
     "done": true
   },
