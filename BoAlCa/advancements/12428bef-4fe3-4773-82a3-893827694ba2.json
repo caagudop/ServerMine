@@ -95,6 +95,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2021-05-15 17:28:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2021-05-03 21:39:43 +0200"
@@ -296,6 +302,12 @@
   "silentgear:recipes/emerald_shards": {
     "criteria": {
       "has_item": "2021-05-04 21:11:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2021-05-15 17:36:38 +0200"
     },
     "done": true
   },
@@ -527,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-05-15 17:28:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2021-05-04 17:20:52 +0200"
@@ -727,6 +745,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2021-05-15 13:22:33 +0200",
       "minecraft:skeleton": "2021-05-04 17:11:43 +0200",
       "minecraft:spider": "2021-05-03 22:32:09 +0200",
       "minecraft:creeper": "2021-05-14 00:38:45 +0200",
@@ -823,6 +842,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2021-05-03 21:23:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2021-05-15 13:22:33 +0200"
     },
     "done": true
   },
@@ -1039,6 +1064,12 @@
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2021-05-04 20:42:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2021-05-15 13:43:01 +0200"
     },
     "done": true
   },
@@ -1363,9 +1394,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2021-05-03 20:40:40 +0200",
+      "minecraft:cold_ocean": "2021-05-15 18:01:16 +0200",
       "minecraft:forest": "2021-05-03 21:22:05 +0200",
       "minecraft:taiga": "2021-05-03 21:21:04 +0200",
       "minecraft:desert_hills": "2021-05-03 21:11:09 +0200",
+      "minecraft:deep_cold_ocean": "2021-05-15 18:01:15 +0200",
       "minecraft:desert": "2021-05-03 20:40:42 +0200",
       "minecraft:jungle": "2021-05-03 20:40:16 +0200",
       "minecraft:jungle_hills": "2021-05-04 21:29:46 +0200",
@@ -1407,6 +1440,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2021-05-03 21:28:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-05-15 17:28:40 +0200"
     },
     "done": true
   },
@@ -1497,6 +1536,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-05-12 23:31:59 +0200"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/machine_base": {
+    "criteria": {
+      "gold": "2021-05-15 17:36:38 +0200"
     },
     "done": true
   },
@@ -1866,6 +1911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-05-15 19:03:47 +0200"
+    },
+    "done": true
+  },
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2021-05-03 21:27:10 +0200"
@@ -2037,6 +2088,12 @@
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-05-04 21:27:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-05-15 17:28:40 +0200"
     },
     "done": true
   },
@@ -2318,6 +2375,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-05-15 17:28:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-05-03 21:11:57 +0200"
@@ -2327,6 +2390,12 @@
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2021-05-03 21:47:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2021-05-15 17:28:40 +0200"
     },
     "done": true
   },
@@ -2600,6 +2669,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2021-05-15 17:28:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2021-05-04 12:37:16 +0200"
@@ -2627,6 +2702,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_spruce_planks": "2021-05-03 21:29:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-05-15 17:28:40 +0200"
     },
     "done": true
   },
@@ -2858,6 +2939,12 @@
     },
     "done": true
   },
+  "bluepower:vorpal": {
+    "criteria": {
+      "end": "2021-05-15 19:20:15 +0200"
+    },
+    "done": true
+  },
   "silentgear:recipes/iron_rod": {
     "criteria": {
       "has_item": "2021-05-03 21:39:43 +0200"
@@ -3053,6 +3140,12 @@
   "rftoolsutility:recipes/rftoolsutility/inventoryplus_module": {
     "criteria": {
       "ingot": "2021-05-03 21:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-05-15 17:28:40 +0200"
     },
     "done": true
   },
