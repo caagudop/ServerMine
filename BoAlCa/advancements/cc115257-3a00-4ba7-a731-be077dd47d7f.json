@@ -443,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2021-05-03 22:15:41 +0200"
@@ -629,6 +635,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2021-05-03 22:25:28 +0200"
@@ -713,6 +725,12 @@
   "mysticalworld:recipes/mysticalworld/spindle": {
     "criteria": {
       "has_slab": "2021-05-04 21:06:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
@@ -1106,6 +1124,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2021-05-03 22:36:26 +0200"
@@ -1193,6 +1217,12 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2021-05-04 21:06:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
@@ -1382,6 +1412,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2021-05-03 22:15:00 +0200"
@@ -1553,6 +1589,12 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2021-05-03 22:25:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
@@ -1745,6 +1787,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/cooked_aubergine_from_smoker": {
     "criteria": {
       "has_eggplant": "2021-05-12 22:59:59 +0200"
@@ -1907,6 +1955,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "rftoolsutility:recipes/rftoolsutility/inventory_module": {
     "criteria": {
       "ingot": "2021-05-03 22:15:41 +0200"
@@ -2039,6 +2093,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "silentgear:recipes/gear/katana": {
     "criteria": {
       "has_item": "2021-05-03 22:10:11 +0200"
@@ -2066,6 +2126,12 @@
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2021-05-03 23:33:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
@@ -2132,6 +2198,12 @@
   "mysticalworld:recipes/mysticalworld.metals/amethyst_chestplate": {
     "criteria": {
       "has_gems_amethyst": "2021-05-03 22:42:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
@@ -2228,6 +2300,12 @@
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2021-05-03 23:23:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
@@ -2771,6 +2849,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2021-05-03 22:36:07 +0200"
@@ -2858,6 +2942,12 @@
   "minecraft:recipes/decorations/light_gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-05-03 23:09:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-05-18 22:43:48 +0200"
     },
     "done": true
   },
