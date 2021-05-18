@@ -1,7 +1,19 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-05-03 23:09:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2021-05-18 23:09:46 +0200"
     },
     "done": true
   },
@@ -101,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2021-05-19 00:10:33 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2021-05-03 22:36:07 +0200"
@@ -125,9 +143,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2021-05-18 23:09:12 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2021-05-03 22:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2021-05-19 00:09:26 +0200"
     },
     "done": true
   },
@@ -152,6 +182,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2021-05-03 22:16:42 +0200"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld.metals/gold_spear": {
+    "criteria": {
+      "has_golden_sword": "2021-05-19 00:24:30 +0200"
     },
     "done": true
   },
@@ -401,6 +437,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2021-05-19 00:09:23 +0200"
+    },
+    "done": true
+  },
   "rftoolsutility:recipes/rftoolsutility/fluidplus_module": {
     "criteria": {
       "ingot": "2021-05-03 22:15:41 +0200"
@@ -485,6 +527,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_at_least_9_gold_ingot": "2021-05-19 00:51:18 +0200"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2021-05-03 23:22:23 +0200"
@@ -500,6 +548,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2021-05-14 00:00:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2021-05-19 00:39:34 +0200"
     },
     "done": true
   },
@@ -611,6 +665,12 @@
     },
     "done": true
   },
+  "rftoolspower:recipes/rftoolspower/powercell_card": {
+    "criteria": {
+      "paper": "2021-05-19 00:41:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2021-05-03 22:28:11 +0200"
@@ -665,6 +725,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2021-05-04 21:06:54 +0200"
@@ -674,7 +740,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2021-05-04 21:13:53 +0200",
+      "minecraft:spider": "2021-05-19 00:07:35 +0200",
       "minecraft:husk": "2021-05-03 22:28:28 +0200",
+      "minecraft:cave_spider": "2021-05-19 00:22:41 +0200",
       "minecraft:zombie": "2021-05-03 22:28:11 +0200",
       "minecraft:drowned": "2021-05-04 21:14:30 +0200"
     },
@@ -782,6 +850,12 @@
     },
     "done": true
   },
+  "archers_paradox:recipes/explosive_arrow": {
+    "criteria": {
+      "has_tnt": "2021-05-19 00:10:33 +0200"
+    },
+    "done": false
+  },
   "mysticalworld:recipes/mysticalworld.metals/tin_knife": {
     "criteria": {
       "has_ingots_tin": "2021-05-03 23:11:13 +0200"
@@ -797,6 +871,12 @@
   "mysticalworld:aubergine": {
     "criteria": {
       "book": "2021-05-12 22:59:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_at_least_9_gold_ingot": "2021-05-19 00:51:18 +0200"
     },
     "done": true
   },
@@ -824,9 +904,21 @@
     },
     "done": true
   },
+  "silentgear:recipes/plain_bowstring": {
+    "criteria": {
+      "has_item": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2021-05-03 23:09:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-05-18 23:31:11 +0200"
     },
     "done": true
   },
@@ -890,6 +982,18 @@
     },
     "done": true
   },
+  "druidcraft:druidcraft/darkwood_forest": {
+    "criteria": {
+      "druidcraft:darkwood_forest": "2021-05-18 23:50:38 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/pocket_computer_normal": {
+    "criteria": {
+      "has_apple": "2021-05-19 00:18:36 +0200"
+    },
+    "done": true
+  },
   "silentgear:recipes/upgrade_base_basic": {
     "criteria": {
       "has_item": "2021-05-04 21:06:16 +0200"
@@ -941,6 +1045,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2021-05-03 23:09:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2021-05-19 00:06:09 +0200"
     },
     "done": true
   },
@@ -1040,6 +1150,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2021-05-03 22:15:41 +0200"
@@ -1061,6 +1177,18 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2021-05-03 22:36:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2021-05-19 00:09:23 +0200"
     },
     "done": true
   },
@@ -1103,6 +1231,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-05-03 22:31:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2021-05-19 00:09:23 +0200"
     },
     "done": true
   },
@@ -1200,16 +1334,20 @@
     "criteria": {
       "minecraft:jungle_edge": "2021-05-03 22:10:34 +0200",
       "minecraft:forest": "2021-05-12 23:17:42 +0200",
+      "minecraft:mountains": "2021-05-18 23:46:42 +0200",
+      "minecraft:taiga": "2021-05-18 23:43:07 +0200",
       "minecraft:desert_hills": "2021-05-12 23:21:57 +0200",
       "minecraft:desert": "2021-05-03 22:10:37 +0200",
       "minecraft:jungle": "2021-05-03 22:09:15 +0200",
       "minecraft:jungle_hills": "2021-05-04 21:39:05 +0200",
       "minecraft:deep_lukewarm_ocean": "2021-05-04 21:04:28 +0200",
       "minecraft:beach": "2021-05-03 22:13:30 +0200",
+      "minecraft:dark_forest": "2021-05-18 23:59:30 +0200",
       "minecraft:river": "2021-05-03 22:10:21 +0200",
       "minecraft:lukewarm_ocean": "2021-05-03 22:13:56 +0200",
       "minecraft:bamboo_jungle_hills": "2021-05-04 21:38:33 +0200",
       "minecraft:wooded_hills": "2021-05-12 23:16:50 +0200",
+      "minecraft:swamp": "2021-05-19 00:19:52 +0200",
       "minecraft:plains": "2021-05-12 23:16:55 +0200"
     },
     "done": false
@@ -1304,6 +1442,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2021-05-19 00:48:51 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/cooked_beetroot_from_campfire": {
     "criteria": {
       "has_vegetables_beetroot": "2021-05-12 22:59:57 +0200"
@@ -1334,6 +1478,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2021-05-19 00:13:21 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2021-05-03 23:29:12 +0200"
@@ -1349,6 +1499,12 @@
   "rftoolsbase:recipes/rftoolsbase/smartwrench": {
     "criteria": {
       "iron": "2021-05-03 22:15:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2021-05-19 00:39:34 +0200"
     },
     "done": true
   },
@@ -1391,6 +1547,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2021-05-03 23:34:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_leggings": "2021-05-19 00:23:15 +0200"
     },
     "done": true
   },
@@ -1502,6 +1664,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2021-05-19 00:09:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-05-03 23:23:50 +0200"
@@ -1511,6 +1685,12 @@
   "restrictions:recipes/restrictions/oneway": {
     "criteria": {
       "redstone": "2021-05-03 22:48:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2021-05-19 00:39:34 +0200"
     },
     "done": true
   },
@@ -1580,6 +1760,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2021-05-19 00:39:34 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-05-03 22:16:42 +0200"
@@ -1625,6 +1811,12 @@
   "mysticalworld:recipes/mysticalworld.metals/lead_ingot_from_smelting": {
     "criteria": {
       "has_ores_lead": "2021-05-03 22:12:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-05-19 00:33:54 +0200"
     },
     "done": true
   },
@@ -1853,6 +2045,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2021-05-19 00:09:23 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld.metals/quicksilver_axe": {
     "criteria": {
       "has_ingots_quicksilver": "2021-05-03 23:10:36 +0200"
@@ -1895,6 +2093,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2021-05-03 23:25:59 +0200"
@@ -1934,6 +2138,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
     "criteria": {
       "has_cut_sandstone": "2021-05-03 23:23:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2021-05-18 23:09:12 +0200"
     },
     "done": true
   },
@@ -2111,6 +2321,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2021-05-19 00:10:33 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld.metals/lead_boots": {
     "criteria": {
       "has_ingots_lead": "2021-05-03 22:15:32 +0200"
@@ -2225,6 +2441,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2021-05-19 00:09:26 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld.metals/lead_chestplate": {
     "criteria": {
       "has_ingots_lead": "2021-05-03 22:15:32 +0200"
@@ -2240,6 +2462,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2021-05-03 23:09:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2021-05-19 00:31:16 +0200"
     },
     "done": true
   },
@@ -2276,6 +2504,12 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2021-05-04 21:06:54 +0200"
+    },
+    "done": true
+  },
+  "computercraft:recipes/pocket_computer_advanced": {
+    "criteria": {
+      "has_apple": "2021-05-19 00:18:36 +0200"
     },
     "done": true
   },
@@ -2327,6 +2561,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2021-05-18 23:09:12 +0200"
+    },
+    "done": true
+  },
   "rftoolsstorage:recipes/rftoolsstorage/storage_module0": {
     "criteria": {
       "redstone": "2021-05-03 22:48:31 +0200"
@@ -2369,6 +2609,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2021-05-19 00:06:32 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2021-05-04 21:06:54 +0200"
@@ -2384,6 +2630,12 @@
   "mysticalworld:recipes/mysticalworld.metals/amethyst_axe": {
     "criteria": {
       "has_gems_amethyst": "2021-05-03 22:42:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2021-05-19 00:13:21 +0200"
     },
     "done": true
   },
@@ -2462,6 +2714,12 @@
   "mysticalworld:recipes/mysticalworld/cooked_aubergine": {
     "criteria": {
       "has_eggplant": "2021-05-12 22:59:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_leggings": "2021-05-19 00:23:15 +0200"
     },
     "done": true
   },
@@ -2831,6 +3089,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2021-05-19 00:10:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2021-05-19 00:09:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-05-03 23:23:50 +0200"
@@ -2861,6 +3131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2021-05-19 00:19:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2021-05-03 22:48:31 +0200"
@@ -2882,6 +3158,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2021-05-04 21:10:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2021-05-19 00:39:34 +0200"
     },
     "done": true
   },
