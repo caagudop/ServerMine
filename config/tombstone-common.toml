@@ -58,7 +58,7 @@
 	graves_bypass_griefing_rules = true
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
-	chance_enchanted_graveKey = 0
+	chance_enchanted_graveKey = 100
 	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
 	pvp_mode = false
 	#Whether to handle player death [false/true|default:true]

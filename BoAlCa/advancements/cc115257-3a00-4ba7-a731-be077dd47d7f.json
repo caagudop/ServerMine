@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2021-05-04 21:10:47 +0200"
@@ -539,6 +545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld.metals/tin_axe": {
     "criteria": {
       "has_ingots_tin": "2021-05-03 23:11:13 +0200"
@@ -614,6 +626,12 @@
   "mysticalworld:recipes/mysticalworld.metals/wood_knife": {
     "criteria": {
       "has_planks": "2021-05-03 22:36:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -740,6 +758,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2021-05-04 21:13:53 +0200",
+      "minecraft:zombie_pigman": "2021-05-26 00:47:51 +0200",
       "minecraft:spider": "2021-05-19 00:07:35 +0200",
       "minecraft:husk": "2021-05-03 22:28:28 +0200",
       "minecraft:cave_spider": "2021-05-19 00:22:41 +0200",
@@ -751,6 +770,12 @@
   "mysticalworld:recipes/mysticalworld.metals/copper_axe": {
     "criteria": {
       "has_ingots_copper": "2021-05-03 22:15:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -832,9 +857,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
+    },
+    "done": true
+  },
   "computercraft:recipes/computer_normal": {
     "criteria": {
       "has_redstone": "2021-05-03 22:48:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -952,6 +989,12 @@
     },
     "done": true
   },
+  "silentgear:recipes/quartz_tipped_upgrade": {
+    "criteria": {
+      "has_item": "2021-05-26 00:38:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-05-03 22:31:41 +0200"
@@ -1003,6 +1046,12 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2021-05-03 23:11:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -1150,6 +1199,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2021-05-19 00:06:32 +0200"
@@ -1165,6 +1220,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2021-05-03 23:34:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -1327,6 +1388,12 @@
   "silentgear:recipes/rough_rod": {
     "criteria": {
       "has_item": "2021-05-03 22:36:26 +0200"
+    },
+    "done": true
+  },
+  "silentgear:recipes/part_analyzer": {
+    "criteria": {
+      "has_item": "2021-05-26 00:38:39 +0200"
     },
     "done": true
   },
@@ -1502,6 +1569,12 @@
     },
     "done": true
   },
+  "rftoolspower:recipes/rftoolspower/power_core1": {
+    "criteria": {
+      "core": "2021-05-26 00:06:21 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2021-05-19 00:39:34 +0200"
@@ -1525,6 +1598,12 @@
       "has_sandstone": "2021-05-03 23:23:50 +0200"
     },
     "done": true
+  },
+  "archers_paradox:recipes/quartz_arrow": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
+    },
+    "done": false
   },
   "silentgear:recipes/stone_rod": {
     "criteria": {
@@ -1580,6 +1659,12 @@
     },
     "done": true
   },
+  "rftoolsbase:recipes/rftoolsbase/infused_diamond": {
+    "criteria": {
+      "shard": "2021-05-26 00:39:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2021-05-03 22:15:00 +0200"
@@ -1625,6 +1710,12 @@
   "mininggadgets:recipes/mininggadgets/upgrade_empty": {
     "criteria": {
       "has_diamonds": "2021-05-04 21:06:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -1697,6 +1788,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2021-05-03 23:23:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-05-26 00:37:40 +0200"
     },
     "done": true
   },
@@ -1850,6 +1947,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2021-05-03 22:40:24 +0200"
@@ -1859,6 +1962,12 @@
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2021-05-12 22:59:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2021-05-26 00:46:27 +0200"
     },
     "done": true
   },
@@ -2129,6 +2238,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2021-05-03 22:25:28 +0200"
@@ -2249,6 +2364,12 @@
     },
     "done": true
   },
+  "rftoolsbase:recipes/rftoolsbase/infused_enderpearl": {
+    "criteria": {
+      "shard": "2021-05-26 00:39:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-05-03 22:29:35 +0200"
@@ -2276,6 +2397,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2021-05-03 22:25:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-05-26 00:11:52 +0200"
     },
     "done": true
   },
@@ -2408,6 +2535,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2021-05-04 21:06:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-05-26 00:37:40 +0200"
     },
     "done": true
   },
@@ -2681,6 +2814,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2021-05-26 00:38:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2021-05-03 22:16:42 +0200"
@@ -2897,6 +3036,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-05-26 00:11:52 +0200"
+    },
+    "done": true
+  },
   "statues:root": {
     "criteria": {
       "core": "2021-05-03 22:09:46 +0200"
@@ -2978,6 +3123,12 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2021-05-03 23:23:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
     },
     "done": true
   },
@@ -3092,6 +3243,12 @@
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2021-05-19 00:10:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2021-05-26 00:38:39 +0200"
     },
     "done": true
   },
