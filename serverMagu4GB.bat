@@ -1,0 +1,1 @@
+java -Xmx4096M -Xms3072M -jar forge-1.14.4-28.2.23.jar nogui
