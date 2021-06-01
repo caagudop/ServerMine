@@ -89,6 +89,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2021-06-01 00:53:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_brick": "2021-06-01 00:59:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2021-05-03 22:15:41 +0200"
@@ -176,6 +188,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2021-05-03 23:14:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2021-06-01 00:38:54 +0200"
     },
     "done": true
   },
@@ -545,6 +563,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-06-01 00:53:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2021-05-26 00:38:39 +0200"
@@ -887,6 +911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2021-06-01 00:59:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2021-05-03 23:19:18 +0200"
@@ -1046,6 +1076,12 @@
   "silentgear:recipes/upgrade_base_basic": {
     "criteria": {
       "has_item": "2021-05-04 21:06:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2021-06-01 00:59:01 +0200"
     },
     "done": true
   },
@@ -1343,6 +1379,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2021-06-01 00:59:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2021-05-03 22:36:26 +0200"
@@ -1431,6 +1473,7 @@
       "minecraft:river": "2021-05-03 22:10:21 +0200",
       "minecraft:lukewarm_ocean": "2021-05-03 22:13:56 +0200",
       "minecraft:bamboo_jungle_hills": "2021-05-04 21:38:33 +0200",
+      "minecraft:wooded_mountains": "2021-06-01 00:42:05 +0200",
       "minecraft:wooded_hills": "2021-05-12 23:16:50 +0200",
       "minecraft:swamp": "2021-05-19 00:19:52 +0200",
       "minecraft:plains": "2021-05-12 23:16:55 +0200"
@@ -1464,6 +1507,12 @@
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2021-05-03 22:36:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-06-01 00:53:51 +0200"
     },
     "done": true
   },
@@ -1893,6 +1942,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2021-06-01 00:59:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-05-18 22:43:48 +0200"
@@ -2033,6 +2088,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2021-06-01 00:46:26 +0200",
       "suspicious_stew": "2021-05-03 22:29:35 +0200",
       "melon_slice": "2021-05-04 20:56:47 +0200",
       "cooked_salmon": "2021-05-12 23:11:35 +0200",
@@ -2109,6 +2165,12 @@
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-05-18 22:43:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-06-01 00:53:51 +0200"
     },
     "done": true
   },
@@ -2388,6 +2450,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-06-01 00:53:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-05-03 22:29:35 +0200"
@@ -2397,6 +2465,12 @@
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2021-05-03 22:48:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2021-06-01 00:53:51 +0200"
     },
     "done": true
   },
@@ -2712,6 +2786,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2021-06-01 00:53:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2021-05-03 23:14:41 +0200"
@@ -2739,6 +2819,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_spruce_planks": "2021-05-04 21:10:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-06-01 00:53:51 +0200"
     },
     "done": true
   },
@@ -3174,6 +3260,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2021-06-01 00:53:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2021-05-03 22:30:05 +0200"
@@ -3195,6 +3287,12 @@
   "mysticalworld:recipes/mysticalworld.metals/amethyst_knife": {
     "criteria": {
       "has_gems_amethyst": "2021-05-03 22:42:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_brick": "2021-06-01 00:59:01 +0200"
     },
     "done": true
   },
@@ -3306,6 +3404,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_brick": "2021-06-01 00:59:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-05-18 22:43:48 +0200"
@@ -3387,6 +3491,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2021-05-03 22:15:41 +0200"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/mysticalworld.metals/diamond_spear": {
+    "criteria": {
+      "has_diamond_sword": "2021-06-01 00:39:09 +0200"
     },
     "done": true
   },
